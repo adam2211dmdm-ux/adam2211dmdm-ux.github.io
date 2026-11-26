@@ -1,9 +1,9 @@
 # دليل التسليم الكامل — CineReels Master Handover Guide
 # (CineReels فقط — بطلب آدم 2026-11-24)
 
-> **آخر تحديث:** 2026-11-24 ~14:25 EET — كتبه Muse (مساعد آدم).
+> **آخر تحديث:** 2026-11-26 ~15:00 EET — كتبه Muse (مساعد آدم).
 > **الغرض:** أي شخص أو AI يقرأ هذا الملف يقدر يكمل شغل **CineReels** من غير ما يسأل آدم أسئلة بديهية.
-> **الأساس:** هذا الدليل مبني على `~/workspace/your_files/cinereels/CineReels-HANDOVER-GUIDE.md` (دليل v1.19) ومحدَّث بكل اللي حصل بعده لحد v1.33 + حصاد Sansekai + APIShort + قصة التشفير + التحديث اللحظي للروابط.
+> **الأساس:** هذا الدليل مبني على `~/workspace/your_files/cinereels/CineReels-HANDOVER-GUIDE.md` (دليل v1.19) ومحدَّث بكل اللي حصل بعده لحد v1.47 + حصاد Sansekai + APIShort + Prince Movies + الأفلام + النشر على GitHub + الترجمة التلقائية + فيسبوك + IPTV/الأسطورة.
 > **القاعدة الذهبية:** لا تكتب أي كلمة سر أو مفتاح API أو كود تحقق في هذا الملف أبداً — أماكن الأسرار مكتوبة، قيمها لأ. (شوف §17 — سياسة الأسرار.)
 > **لغة الملف:** عربي (مصري) + مصطلحات تقنية إنجليزية زي ما آدم متعود.
 
@@ -11,7 +11,7 @@
 
 ## آدم — قواعد التعامل (اقرأها الأول)
 
-- **آدم (Adam):** مصري، عايش في أمريكا. رسايله بتوصل بتوقيت **Africa/Cairo (EET)**. بيكلم عربي مصري مباشر وقصير — **كل الردود عليه لازم تكون بالعربي المصري، قصيرة ودافئة ومباشرة**، مش شرح تقني طويل.
+- **آدم (Adam):** مصري، عايش في **مصر** (تصحيح 2026-11-25 — كان مكتوب أمريكا غلط قبل كده). رسايله بتوصل بتوقيت **Africa/Cairo (EET)**. بيكلم عربي مصري مباشر وقصير — **كل الردود عليه لازم تكون بالعربي المصري، قصيرة ودافئة ومباشرة**، مش شرح تقني طويل.
 - **موبايل بس — OPPO Reno15 F 5G.** مفيش كمبيوتر، مفيش كارت بنكي، ومفيش فلوس دلوقتي. أي شغل لازم يشتغل على موبايله.
 - **بيحكم على الشغل من اللي يشوفه على موبايله** — مش من الشرح. أي إصلاح لازم يتأكد بصورة/سكرين شوت قبل ما يتقال إنه شغال.
 - **"ابشرني"** = ابدأ بالخبر الحلو أولاً. **"ايه كل دا"** = اختصر في سطرين.
@@ -47,6 +47,9 @@
 17. [سياسة الأسرار](#17-سياسة-الأسرار)
 18. [دليل صناعة الفيديو — للـ AI اللي هيعمل الحلقات](#18-دليل-صناعة-الفيديو--للـ-ai-اللي-هيعمل-الحلقات)
 19. [أوامر سريعة (Cheat sheet)](#19-أوامر-سريعة-cheat-sheet)
+20. [الأفلام — Prince Movies + قصة سيرفر الأفلام](#20-الأفلام--prince-movies--قصة-سيرفر-الأفلام)
+21. [فيسبوك — الصفحة + الكرونات الشغالة](#21-فيسبوك--الصفحة--الكرونات-الشغالة)
+22. [IPTV + الأسطورة TV](#22-iptv--الأسطورة-tv)
 
 ---
 
@@ -57,6 +60,7 @@
 - مسلسلات بحلقات متتابعة (الحلقة تخلص → عدّ تنازلي 3 ثواني → الحلقة اللي بعدها تلقائي).
 - ترجمة على كل فيديو (عربي/إنجليزي/إيقاف، زر CC، حجم قابل للتعديل).
 - تصنيفات + بحث + مفضلة + سجل مشاهدة.
+- تبويب "مكتبة" (أفلام + مسلسلات) + قسم "أفلام أجنبية جديدة" من Prince Movies (§20) مع سلايدر أحدث الأفلام وترقيم الصفحات.
 - حسابات (تسجيل/دخول) + ملف شخصي عربي/إنجليزي (RTL/LTR كامل). صفحة الدخول هي أول شاشة (دخول / تسجيل / ضيف) مع intro سينمائي.
 - اشتراك مدفوع: **25 حلقة مجانية، بعدها اشتراك** (نموذج DramaBox) — يدوي عبر واتساب + فودافون كاش (§8).
 - لوحة أدمن (رفع/حذف فيديوهات، ترجمات، تصنيفات، الموافقة على الاشتراكات، استيراد مسلسلات، جلب مسلسلات عشوائية من المزوّدين).
@@ -67,7 +71,34 @@
 
 ---
 
-## 2. الحالة الحالية — v1.33 والمحتوى
+## 2. الحالة الحالية — v1.47 والمحتوى
+
+### v1.47 (versionCode 48) — LIVE على اللينك من 2026-11-26 ~14:10 EET
+- **تم التحقق الحي 2026-11-26 ~14:10 EET:** `https://cinereelsapp.github.io/` = **HTTP 200** وبتقول **Version v1.47**، و`https://cinereelsapp.github.io/CineReels-v1.47.apk` = **HTTP 200**، الحجم **1,366,122 بايت**، MD5 = **`7b7eafe61ad22b236abd5291b7274f5f`** (مطابق للـ build). الرفع commit `1567611` في ريبو `CineReelsApp/CineReelsApp.github.io` (APK + AAB + index.html). الـ AAB MD5 `1ef97634f846c050a36ab0cf8e650f07`.
+- **الجديد في v1.47 (آدم وافق "تمام اعمل كدا" 2026-11-26 ~13:59 EET):** **AutoEmbed بقى المشغّل الافتراضي الأول للأفلام** (`PrinceMovies.moveAutoEmbedFirst()` — الترتيب بقى AutoEmbed / VidLink / EmbedSU / SmashyStream / MoviesAPI) + **سطر التنبيه اتحدث لخطوات الترجمة بالظبط** (عربي: "دوس CC وبعدين Search واختار العربية، واستنى لحد ما الترجمة تحمّل"). باقي v1.46 زي ما هو (الـ pool الثابت، السلايدر، التقسيم المحلي، إصلاح المسلسلات).
+- **اختبار موبايل آدم لسه معلّق:** افتح فيلم → AutoEmbed يفتح الأول (الشريحة الذهبية) → CC → Search → العربية → الترجمة تظهر.
+
+### v1.46 الرسمية (versionCode 47) — DELIVERED عبر الشات 2026-11-26 ~13:43 EET
+- MD5 `8d7ecad7a1e29051b67eb839d485bb6d`، 1,366,122 بايت؛ AAB MD5 `68277847647569f4e48540e8cd7b01fb`.
+- **الجديد:** (1) **pool أفلام ثابت** — trending p0–p2 بتتجمع وتتنضف من التكرار، أفلام بس، مترتبة من الأجدد للأقدم، ومتحفظة 12 ساعة على الموبايل (`prince_pool` / `pool_saved_at`؛ زرار "تحديث" بيجيب طازج غصب)؛ (2) **تقسيم محلي 7 أفلام/صفحة** بدل تقسيم السيرفر؛ (3) **سلايدر أحدث 5 أفلام** فوق (بيقلب كل 4 ثواني، نقاط، ضغطة بتفتح الفيلم)؛ (4) **سطر تنبيه ترجمة** تحت أزرار المصادر في المشغّل (أفلام Prince بس)؛ (5) **إصلاح المسلسلات — قسم المسلسلات في المكتبة بقى فيه كل الـ 15 مسلسل** (القاعدة القديمة كانت بتقبل بس `categoryId=="movies"` أو `source=="archiveorg"` = العراف بس؛ اتأكد: seriesList 15/15، وكلمة `archiveorg` صفر مرة في الـ dex).
+- **QA قبل التسليم: 9/9 عدّت** (الـ manifest 15/758، الفيد، الـ pool/السلايدر/التقسيم، أقسام المكتبة + الفلاتر، المشغّل، الحالات الفاضية/الأخطاء، الاشتراك زي ما هو + قاعدة الـ 25 المجانية، الـ API الحي، نظافة البناء). **اللي مش متأكد هنا: التشغيل الفعلي على موبايل حقيقي + ظهور الترجمة العربية فعلاً** (اتأكدت الترجمة من المتصفح بعدها — §20).
+- **ملحوظة:** كان فيه build أول لـ v1.46 (MD5 `bb99df54…`) من غير إصلاح المسلسلات — **اتلغى ومتبعتش أبداً**؛ الرسمية هي اللي فوق. والـ build ده اتعمل بقرار آدم نفسه (2026-11-26 ~13:38 EET): "عايزك تجرب كل حاجه قبل ما نعمل النسخه الرسميه ونرفعها ع لاينك".
+
+### v1.34 – v1.45 — ملخص سريع (بالتاريخ والـ MD5)
+| نسخة | code | التاريخ | MD5 (APK) | أهم ما فيها |
+|---|---|---|---|---|
+| v1.34 | 35 | 2026-11-24 | `870b811c4e480dfc5e0d5ab6615c3926` | عدّاد حصة APIShort اليومية الحقيقي في الأدمن (من `X-RateLimit-*` headers، بيظهر بس لما المصدر = APIShort؛ تحذير ذهبي تحت 20). |
+| v1.35 | 36 | 2026-11-24 | `153f40e27b74892f27fa839df3b7d30e` | تحديث الـ manifest بالدمج بدل الاستبدال (اتلغى في v1.42) + timeouts الـ ThumbLoader اترفعت لاتصال آدم البطيء (connect 10s / read 30s + محاولة واحدة). |
+| v1.36 | 37 | 2026-11-24 23:58 EET | `f815fd0fef6066b14f943c2b38296a1f` | `isAllowedMediaUrl` كسب hwztakavideoto + hwztchapter.dramaboxdb.com؛ **إصلاح كراش صفحة الاشتراك** (NPE في `GitHubSubs.refreshAsync`)؛ الـ manifest المضمّن 6 مسلسلات / 272 فيديو (منهم "تحت جناحي" 74 حلقة). AAB MD5 `4598145de3cee809a3de3a2ec9637052`. |
+| v1.37 | 38 | 2026-11-25 07:37 EET | `5903d036d574b9dadfc31e1fa65a8918` | صندوق ترجمة أغمق (`argb(220)`) فوق الإنجليزي المحروق؛ **APIShort بقى الأول والافتراضي** في الـ spinner ("يعمل بدون مفتاح")؛ **حقل مفتاح API في الأدمن** (بيتخزن على جهاز آدم بس، بيتبعت `X-API-Key` بس لو اتحط)؛ **تحديث الرابط والتحميل شغال** ("جارٍ تحديث رابط الحلقة…"). رفع org commit `5510258`. AAB MD5 `326a0919143dedeeb652ad821ee75b1a`. |
+| v1.38 | 39 | 2026-11-25 08:42 EET | `774a7177c75f9a2fd0ba97f7295842b0` | إصلاح dedupe الـ 148 حلقة؛ **زر "انشر للكل" في الأدمن** (بيفتح GitHub issue جاهز — §6.2)؛ **3 مجموعات مصادر** ("مجاني — بدون مفتاح" أولاً: ReelShort/DramaBox؛ "APIShort — روابط بتنتهي": ShortMax/NetShort؛ "Sansekai — متوقف حالياً")؛ DramaBox اتضاف لـ `ApiShort.java`؛ إصلاح ShortMax nested `video{}`؛ **إعادة كتابة resolve بتاع ReelShort** (allepisodes + اشتقاق `-ld`، و`/play` بيتجاهل chapter_id). المضمّن 7 مسلسلات / 323 فيديو. رفع org commit `46e4e22`. AAB MD5 `5aaffc009985af926b40926128f57b93`. |
+| v1.39 | 40 | 2026-11-25 17:36 EET | `f8be84cc1e416a75474e86d3d8c5fecd` | **إشعارات محلية للمسلسلات الجديدة** (`NewSeriesNotifier` + `NewSeriesReceiver`، مقارنة snapshot كل ~6 ساعات بـ AlarmManager، أول تشغيل بيسجّل بصمت، مفيش إعادة تنبيه؛ تاج ذهبي "جديد" على المسلسلات اللي ظهرت من أقل من 7 أيام؛ ضغطة بتفتح المسلسل). قيد صريح: مفيش BOOT_COMPLETED receiver — الفحص بيقف بعد الـ reboot لحد التشغيل الجاي. رفع org commit `04e301e`. AAB MD5 `81b8adfd45091ad7fdd142e570eb59da`. |
+| v1.40 | 41 | 2026-11-26 ~08:24 EET | `a2b37c36c00b88f285dfd6187431b231` | **Anichin** مصدر رابع (مجموعة "Anichin — بدون مفتاح"، 720p افتراضي، cache 4 ساعات)؛ **GoodShort عبر APIShort** في مجموعة الروابط اللي بتنتهي (signed HLS، جلب حي بس)؛ **Archive.org في الـ allowlist** + مسلسل العراف `ia-al3raf` (30 حلقة) + 3 أفلام قديمة (اتمسحت من الـ manifest بعدها بقرار آدم — §20)؛ **تبويب سادس 🎬 "أفلام"** (MoviesActivity)؛ **الاستئناف اتوصل** (المشغّل بيحفظ المكان الحقيقي عند الإيقاف/التبديل، أقل من 5 ثواني مبيتكتبش، وقبل النهاية بـ 10 ثواني بيتصفّر). الـ manifest 16 مسلسل / 631 فيديو. رفع org commit `d09966e`. AAB MD5 `c53f9ed13ae67b8afcc973db1884408d`. |
+| v1.41 | 42 | 2026-11-26 ~08:35 EET | `42d0385397003dd193faa66f84bbe076` | **المكتبة اتكتبت من جديد:** قسمين بعناوين وعدد ("🎬 أفلام" / "📺 مسلسلات") + chips فلترة (الكل/أفلام/مسلسلات)، والتبويب اتسمى "مكتبة". مفيش تغيير manifest (16/631). رفع org commit `a522e37`. AAB MD5 `bbb1148992bc622079126d14ca61dd57`. |
+| v1.42 | 43 | 2026-11-26 ~09:43 EET | `81a50f34fff9c53ede7a33b9d9518e84` | الـ manifest المضمّن اتزامن من الحي (**14 مسلسل / 700 فيديو، صفر أفلام ia-movie**)؛ **إصلاح الدمج `replaceWithRemote`** — الـ manifest البعيد بقى هو الـ cache (الإصلاح شال الـ 3 أفلام المحذوفة؛ المسلسلات المستوردة من الأدمن عايشة في تخزين منفصل وبتفضل). مفيش كود مصدر أفلام (ده كان v1.43). رفع org commit `3dbe652`. AAB MD5 `bba9d29223342ee1abc29248e7b6c0f2`. |
+| v1.43 | 44 | 2026-11-26 ~12:35 EET | `206b53d41761c9e9d55f27b0d7d33ee9` | **مشغّل أفلام Prince embed** (قرار آدم 09:48 EET — السيرفر المجاني مات فالـ embed هو البديل): `PrinceMovies.java` جديد (trending/search/sources، من غير مفتاح)؛ قسم "🎬 أفلام أجنبية جديدة" فوق المكتبة (بوسترات + بحث + تحديث)؛ ضغطة → `/api/sources` → WebPlayerActivity مع chips تبديل المزوّدين (VidLink أولاً وقتها، بعدين AutoEmbed/EmbedSU/SmashyStream/MoviesAPI)؛ صفر مصادر = toast وبتفضل في القايمة. الأفلام مجانية. المضمّن 15/758. **اتسلمت عبر الشات مش اللينك** (رفع الصفحة اتوقف — §5). **آدم أكد من موبايله 12:52 EET إن القايمة شغالة** (بوسترات + بحث + تحديث). AAB MD5 `f7cf241f5d722f32a467c75689ed0716`. |
+| v1.44 | 45 | 2026-11-26 ~13:07 EET | `2eb215dfff43353ea9b0971602ab5538` | **شريط ترقيم مرقّم** تحت شبكة Prince (السابق + أرقام + التالي، الحالي ذهبي، نافذة الحالي ±2 مع صفحة 1 + "…"، السابق معطّل في ص1). **انحراف متأكد حي: الـ API بيتجاهل `type=1`** — الصفحة 0 = 11 مسلسل تلفزيوني + 7 أفلام، فـ v1.44 عرضت الـ 18 مخلوطين. اتسلمت عبر الشات. AAB MD5 `b1c115b0a37ff7bc1ca9f21f922b6718`. |
+| v1.45 | 46 | 2026-11-26 ~13:17 EET | `da764b128a5ee8fecb987d510dd303ec` | **آدم اختار "أفلام بس (٧ في الصفحة)"** — `PrinceMovies.parsePage` بيفلتر لـ `subjectType==1` (~7 أفلام/صفحة؛ `hasMore` من العدد الخام فالتقسيم لسه شغال). باقي كل حاجة زي ما هي. اتسلمت عبر الشات. AAB MD5 `f7ddb56d6549c86aedf1eea9da970b54`. |
 
 ### v1.33 (versionCode 34) — DELIVERED والرابط اتبعت لآدم 2026-11-24 14:08 EET
 - **تم التحقق الحي 2026-11-24 14:08 EET:** `https://adam2211dmdm-ux.github.io/CineReels-v1.33.apk` = **HTTP 200**، الحجم **1,312,874 بايت**، MD5 = **`03dedf416aed9263df7a57ca1a64d2cc`** (مطابق للـ build)، و`index.html` بتقول v1.33 (صفر v1.32). الـ APK اترفع من المتصفح (commit `223d3d2`) + الـ index (commit `7f38487`). آدم اتقاله يمسح القديم الأول. الـ AAB اتبنى برضه (MD5 `f9ec6199b6af3a8585a931fae626512e`).
@@ -99,16 +130,26 @@
 ### إصلاح الـ blur (v1.25 — versionCode 26)
 رقعة التمويه فوق شعار ReelShort "R" أعلى الشمال — الـ margins بقت `setMargins(dp(28), dp(75), 0, 0)` في `SeriesActivity.java` و`FeedActivity.java` (الحجم 64dp، gravity `TOP | LEFT`). اتبعت 2026-11-24 07:26 EET (MD5 `fbec674d9d112ee7d3f0731cdd94413e`). **تأكيد آدم من موبايله لسه معلّق** (اتطلب سكرين شوت مرتين؛ رد "تمام" من غير إجابة).
 
-### المحتوى الحالي (manifest حي — اتفحص 2026-11-24 ~11:00 EET — 198 فيديو / 5 مسلسلات)
-| المسلسل | الحلقات | المنشور | التفاصيل |
-|---|---|---|---|
-| **The Last Message / الرسالة الأخيرة** | 25 | 1–15 | مقاطع آدم — 60 ثانية، صوت إنجليزي، ترجمة محروقة في الصورة (`burned_subs: true`)، الترجمة الافتراضية عربي. 16–25 `coming_soon`. الحلقات 14 و15 نشرهم آدم بنفسه على GitHub. |
-| **A Second Chance / فرصة ثانية** | 3 | 1 | رومانسي؛ الحلقة 1 منشورة (60 ثانية، صوت إنجليزي، burned-in). 2–3 `coming_soon`. |
-| **narto-runaway-mother** — "الأم العازبة الهاربة وزوجها الملياردير" | 56 | 56 | ReelShort، روابط مباشرة 540p H264 (`-ld`)، صوت عربي مدبلج، ترجمة عربية محروقة. **شغالة ومؤكدة على موبايل آدم من v1.21.** |
-| **narto-my-revenge** — "انتقامي من زوجي وصديقتي المفضل" | 62 | 62 (ويب) | حلقات **ويب** (`web_page: true`) — بتتفتح في WebView بمشغّل موقع narto (فيه شاشة إعلانات قبل التشغيل — مش الاختيار المقبول عند آدم، شوف §10). مزوّدها مجهول. |
-| **rs-wave-god-revenge** — "انتقام إله الأمواج" | 52 | 52 (38 شغالة) | ReelShort، روابط `-ld` 540p H264، صوت عربي. **14 حلقة ميتة (404)** — شوف العيب فوق. **الترجمة: الحلقات 1–11 عندها EN+AR .vtt** (الحلقات 8+9 اتأكدت حية 13:12 EET، و10+11 اتأكدت حية 13:37 EET — الـ cron بيترجم حلقتين كل 30 دقيقة، شوف §7.1). |
+### المحتوى الحالي (manifest حي — اتفحص 2026-11-26 ~14:55 EET — 15 مسلسل / 758 فيديو)
+| المسلسل | الحلقات | التفاصيل |
+|---|---|---|
+| **The Last Message / الرسالة الأخيرة** (`last-message`) | 25 | مقاطع آدم — 60 ثانية، صوت إنجليزي، ترجمة محروقة في الصورة (`burned_subs: true`)، الترجمة الافتراضية عربي. 16–25 `coming_soon`. الحلقات 14 و15 نشرهم آدم بنفسه على GitHub. |
+| **A Second Chance / فرصة ثانية** (`second-chance`) | 3 | رومانسي؛ الحلقة 1 منشورة (60 ثانية، صوت إنجليزي، burned-in). 2–3 `coming_soon`. |
+| **narto-runaway-mother** — "الأم العازبة الهاربة وزوجها الملياردير" | 56 | ReelShort، روابط مباشرة 540p H264 (`-ld`)، صوت عربي مدبلج، ترجمة عربية محروقة. **شغالة ومؤكدة على موبايل آدم من v1.21.** |
+| **narto-my-revenge** — "انتقامي من زوجي وصديقتي المفضل" | 62 | حلقات **ويب** (`web_page: true`) — بتتفتح في WebView بمشغّل موقع narto (فيه شاشة إعلانات قبل التشغيل — مش الاختيار المقبول عند آدم، شوف §10). |
+| **rs-wave-god-revenge** — "انتقام إله الأمواج" | 52 | ReelShort، روابط `-ld` 540p H264، صوت عربي. **14 حلقة ميتة (404):** 18، 22، 23، 24، 26، 27، 29، 34، 38، 41، 44، 45، 46، 51 — محتاجة إعادة جلب من APIShort. **الترجمة: عربي 51/51** (الإنجليزي 21 + 30 محروقة). |
+| **prov-dramabox-41000121294** — "تحت جناحي القدر" (Ruling Over All I See) | 74 | DramaBox مدبلج عربي، `videoUrl540` مباشر، `burned_subs=true` على الـ 74. اتخبز 2026-11-24 (commit `30e4a7d9`). |
+| **prov-reelshort-65fc172307fa6beb36042c36** | 51 | ReelShort عبر APIShort. |
+| **prov-dramabox-42000011257** — "دخول غرفة لعب المدير" | 74 | DramaBox. **الترجمة كاملة: عربي + إنجليزي 74/74** (اتأكد 2026-11-26). |
+| **prov-netshort-2122887649875296258** | 38 | NetShort — روابط tokenized (جلب حي بس)؛ البوستر في `cover_url` بس (إصلاح 2026-11-26). |
+| **prov-netshort-2116099831460159489** | 30 | NetShort — روابط tokenized (جلب حي بس)؛ البوستر في `cover_url` بس. |
+| **prov-dramabox-42000023908** — "كاديمية المتحوّل أصبحت سيدة ثلاثة متحوّلين" | 53 | DramaBox — **آدم نشرها بنفسه من غير أي تدخل من Muse** (2026-11-25 ~19:51 EET). |
+| **prov-reelshort-6ae152bbbf9d11c475011619** — "Divorce for the Hidden Billionaire" | 80 | ReelShort — اتنشرت 2026-11-26 05:54 UTC. |
+| **ia-al3raf** — "مسلسل العراف" | 30 | Archive.org، روابط mp4 مباشرة. **الحلقات 26–30 مقفولة من غير اشتراك** (بعد الـ 25 المجانية). الـ auto-translate هيشتغل عليها (روابط قابلة للتحميل ومش burned_subs). |
+| **prov-netshort-2099689574180286465** | 72 | NetShort — روابط tokenized (جلب حي بس). |
+| **prov-netshort-2089531425028575233** | 58 | NetShort — روابط tokenized (جلب حي بس). |
 - كل المسلسلات `free_episodes: 25` — أول 25 حلقة مجاناً، بعدها اشتراك.
-- الفيديوهات التجريبية (Blender open movies) اتمسحت بقرار آدم 2026-11-23 — مفيش أي فيديو تجريبي في الكتالوج.
+- الـ 3 أفلام القديمة (`ia-movie-*`) **اتمسحت من الـ manifest 2026-11-26** بقرار آدم ("مش عايز افلام قديمه… انا عايز افلام اجنبيه جديدة") — commit `db1f29e`. الأفلام الجديدة بتيجي من Prince Movies (§20)، مش من الـ manifest.
 - السيناريو الكامل لـ "الرسالة الأخيرة" في `cinereels/drama-series/SCRIPT_AR_EN.md` (ليلى + سارة + عمر + خالد؛ النسخة دي لغت الـ outline القديم بتاع العم/البيت/الفلوس).
 - **ملحوظة عن المدد:** `duration_sec` في الـ manifest هو اللي التطبيق بيعرضه، بس **الحقيقة من `ffprobe`** — فيه حالات المدة في الـ manifest غلط (مثال: ملف sc-ep1 فعلياً 10 ثواني رغم إن اسمه 30s). اتأكد بـ `ffprobe` قبل ما تعتمد مدة.
 
@@ -146,6 +187,20 @@
 | v1.31 | 2026-11-24 | **تدقيق QA + أمن كامل — 16 إصلاح** (S1–S6، F1–F14) + أرقام طلبات 6 أرقام |
 | v1.32 | 2026-11-24 | **كلمات السر salted-hash** (إظهار كلمة السر في الأدمن اتشال) + **حذف علامة ✉** من البوسترات |
 | **v1.33** | **2026-11-24** | **APIShort مصدر تاني جنب Sansekai + تحديث لحظي للروابط اللي بتنتهي وقت التشغيل + fallback لـ ReelShort من Sansekai لـ APIShort** |
+| v1.34 | 2026-11-24 | **عدّاد حصة APIShort اليومية في الأدمن** |
+| v1.35 | 2026-11-24 | **تحديث الـ manifest بالدمج + timeouts أطول للثمبنيلز** |
+| **v1.36** | **2026-11-24** | **إصلاح كراش صفحة الاشتراك + allowlist لـ hwztakavideoto/hwztchapter + "تحت جناحي" 74 حلقة** |
+| v1.37 | 2026-11-25 | **صندوق ترجمة أغمق + APIShort أولاً وافتراضي + حقل مفتاح API في الأدمن + تحديث الرابط أثناء التحميل** |
+| v1.38 | 2026-11-25 | **زر "انشر للكل" + 3 مجموعات مصادر + DramaBox في APIShort + إعادة كتابة resolve بتاع ReelShort** |
+| v1.39 | 2026-11-25 | **إشعارات محلية للمسلسلات الجديدة + تاج "جديد" ذهبي** |
+| v1.40 | 2026-11-26 | **Anichin + GoodShort + Archive.org/العراف + تبويب أفلام + الاستئناف من نفس المكان** |
+| v1.41 | 2026-11-26 | **المكتبة اتكتبت من جديد (قسمين + فلاتر) + التبويب بقى "مكتبة"** |
+| v1.42 | 2026-11-26 | **إصلاح الدمج `replaceWithRemote` — الـ manifest البعيد بقى هو الـ cache** |
+| v1.43 | 2026-11-26 | **مشغّل أفلام Prince embed (VidLink أولاً) + قسم "أفلام أجنبية جديدة"** |
+| v1.44 | 2026-11-26 | **شريط ترقيم مرقّم تحت شبكة الأفلام** |
+| v1.45 | 2026-11-26 | **الأفلام بس (فلتر `subjectType==1` — ~7 في الصفحة)** |
+| **v1.46** | **2026-11-26** | **pool أفلام ثابت + سلايدر أحدث 5 أفلام + تقسيم محلي + تنبيه ترجمة + إصلاح المسلسلات (15/15 في المكتبة)** |
+| **v1.47** | **2026-11-26** | **AutoEmbed بقى المشغّل الأول + خطوات الترجمة العربية في التنبيه — LIVE على اللينك** |
 
 ---
 
@@ -164,14 +219,15 @@
 |---|---|---|
 | `cinereels-videos` | كتالوج CineReels (`videos.json` + `videos.json.sig` — الـ `.sig` قديم ومتقريش من v1.24 — + `subscribers.json` + فيديوهات + ثمبنيلز + ترجمات) + صفحة التحميل البديلة `docs/index.html` | `https://github.com/adam2211dmdm-ux/cinereels-videos` |
 | `adam2211dmdm-ux.github.io` | موقع صفحة التحميل (user Pages site، main root): `index.html` + ملفات APK + `HANDOVER.md` (هذا الملف) | `https://github.com/adam2211dmdm-ux/adam2211dmdm-ux.github.io` |
+| `CineReelsApp/CineReelsApp.github.io` | **موقع التحميل الحي (org CineReelsApp): `index.html` + ملفات APK/AAB — كل الرفعات الجديدة هنا من v1.37** | `https://github.com/CineReelsApp/CineReelsApp.github.io` |
 
 **الـ manifest اللي التطبيق بيجيبه:** `https://raw.githubusercontent.com/adam2211dmdm-ux/cinereels-videos/main/videos.json`
-**صفحة التحميل الحية:** `https://adam2211dmdm-ux.github.io/`
-**رابط APK المباشر (النمط):** `https://adam2211dmdm-ux.github.io/CineReels-vX.Y.apk`
+**صفحة التحميل الحية:** `https://cinereelsapp.github.io/` (من 2026-11-25 — org `CineReelsApp`، ريبو `CineReelsApp/CineReelsApp.github.io`، public، main). الرابط القديم `https://adam2211dmdm-ux.github.io/` لسه شغال كـ backup (Monetag verified عليه بس — شوف §9).
+**رابط APK المباشر (النمط):** `https://cinereelsapp.github.io/CineReels-vX.Y.apk`
 
 ### أماكن الملفات المحلية (على جهاز الـ agent)
 ```
-~/workspace/your_files/cinereels-apk/     ← كود التطبيق (الأصل؛ symlink لـ goals/cinereels-short-video-app/files/cinereels-apk/)
+~/workspace/goals/cinereels-short-video-app/files/cinereels-apk/  ← كود التطبيق (الأصل؛ `~/workspace/your_files/cinereels-apk/` مجرد symlink ليه — رفع الملفات بالمتصفح بيحتاج المسار الحقيقي)
   src/com/cinereels/app/*.java            ← كل الأكواد (FeedActivity, SeriesActivity, HomeActivity, ...)
   res/values/strings.xml                  ← النصوص الإنجليزية
   res/values-ar/strings.xml               ← النصوص العربية
@@ -213,11 +269,20 @@
 
 ~/workspace/whisper-venv/                 ← venv فيه faster-whisper (لتفريغ صوت الفيديوهات)
 ~/workspace/your_files/thumbnail-upload/  ← منطقة تجهيز قبل الرفع بالمتصفح (APK + index.html)
+~/workspace/goals/cinereels-short-video-app/files/cinereels/pages-site/new-site/index.html  ← نسخة index.html الحية لموقع الـ org (v1.47 حالياً)
+~/workspace/goals/cinereels-short-video-app/files/cinereels/source-staging/cinereels-app/  ← نسخة السورس النضيفة v1.47 (من غير keystore/أسرار — شوف §3.1)
 ~/workspace/your_files/handover/HANDOVER.md   ← هذا الملف (نسخته المحلية)
 ~/workspace/goals/cinereels-short-video-app/GOAL.md
 ```
 
-**⚠️ تنبيه عن نسخة الـ keystore:** فيه نسخة من `cinereels.keystore` + ملف كلمة السر في `~/workspace/your_files/cinereels-apk/` — **لا تُرفع أبداً على GitHub ولا تدخل في أي zip للمصدر.**
+**⚠️ تنبيه عن نسخة الـ keystore:** فيه نسخة من `cinereels.keystore` + ملف كلمة السر (`cinereels.keystore-password.txt`) في مجلد كود التطبيق نفسه (`~/workspace/goals/cinereels-short-video-app/files/cinereels-apk/`) — **لا تُرفع أبداً على GitHub ولا تدخل في أي zip للمصدر.**
+
+### 3.1 نسخة السورس النضيفة (حزمة التسليم — v1.47)
+
+- **المكان:** `~/workspace/goals/cinereels-short-video-app/files/cinereels/source-staging/cinereels-app/` — نسخة نضيفة من السورس عند v1.47، جاهزة للرفع على GitHub.
+- **اللي فيها (67 ملف):** `src/` كامل (36 ملف Java)، `res/` كامل (9 ملفات)، `assets/` (`videos.json` متزامن من الـ manifest الحي — 15 مسلسل / 758 فيديو — + 16 ملف `.vtt` مضمّن)، `AndroidManifest.xml` (versionCode 48 / versionName 1.47)، `build.sh` (VER 1.47)، `proguard-rules.pro` (لازم للـ R8 — من غيره الـ build بيقع على d8 والـ APK بيختلف)، `README.md` (طريقة البناء)، ونسخة من الدليل ده (`HANDOVER.md`).
+- **اللي مش فيها عمداً:** `out/`، كل الـ APK/AAB/zips، أي keystore، أي ملف كلمة سر. الـ build بيشاور على الـ keystore بمساره المطلق بره الشجرة (شوف §3).
+- **اتأكدت بالبناء (2026-11-26 ~15:10 EET):** `./build.sh` من النسخة دي بيشتغل وبيطلع APK 1,366,122 بايت موقّع بنفس الشهادة (SHA-256 `28:DF:4A:3D…`)؛ وبـ `videos.json` بتاع وقت بناء v1.47 كل ملفات الـ APK الـ 28 طابقت الـ APK الرسمي بايت-بايت (منهم `classes.dex` و`AndroidManifest.xml` و`resources.arsc`) — الـ MD5 الكلي بس بيختلف عشان الـ timestamps جوه الـ zip. وبالـ manifest الحي الحالي الـ MD5 بيختلف عشان 8 روابط ترجمة اتضافت لمسلسل Divorce من الـ Action بعد بناء v1.47.
 
 **معلومات التوقيع (ثابتة):**
 - Package: `com.cinereels.app` — Keystore: `cinereels.keystore` (alias `cinereels`)
@@ -252,6 +317,8 @@ export PATH=~/workspace/snake-colony-work/jdk17/bin:$PATH
 apksigner verify --print-certs out/CineReels-vX.Y.apk
 ```
 
+ملحوظة: `classes.dex` جوه الـ APK **مضغوط (DEFLATED)** — أي grep على ملف الـ APK الخام هيطلع 0؛ استخرج الـ dex الأول (`unzip -o -q out/CineReels-vX.Y.apk classes.dex -d /tmp/dexcheck`) وبعدين grep عليه. ونفس القاعدة للـ strings العربية: `strings` على الـ dex بيفوّت الـ UTF-8 العربي — اتأكد من الـ resources أو بـ `grep -a`.
+
 **دروس البناء الصعبة (لا تعيد الغلط):**
 1. **R8 بيشيل الـ constructors:** قاعدة الـ ProGuard لازم تحافظ على `<init>();` لكل Activity، مش `onCreate` بس. غير كده التطبيق بيموت فور فتحه برسالة صامتة (`Unable to instantiate activity ... has no zero argument constructor`) — حصل في v1.2 لحد v1.6 واتكشف بـ Appetize.io. اتصلح في v1.7.
 2. **ممنوع Lambda:** المشروع بيتبني على android.jar مباشرة (مفيش LambdaMetafactory) — استخدم anonymous inner classes دايماً.
@@ -265,17 +332,18 @@ apksigner verify --print-certs out/CineReels-vX.Y.apk
 1. ابنِ النسخة (§4) وتأكد من التحققات.
 2. انسخ الـ APK + `index.html` المحدّث إلى `~/workspace/your_files/thumbnail-upload/` (مسارات المتصفح مبتحبش الـ symlinks).
 3. حدّث `index.html`: غيّر رابط الـ APK (`CineReels-vX.Y.apk`) ورقم النسخة الظاهر.
-4. ارفع الملفين لريبو `adam2211dmdm-ux.github.io` (root, main) من **المتصفح** (Add file → Upload files) — **Environment 2 أنجح واحد**. رسالة الكوميت: `CineReels vX.Y: <ملخص قصير>`.
+4. ارفع الملفات لريبو **`CineReelsApp/CineReelsApp.github.io`** (org، root، main) من **المتصفح** (Add file → Upload files) — **Environment 2 أنجح واحد**. ارفع الـ APK + الـ AAB + `index.html` المحدّث مع بعض. رسالة الكوميت: `CineReels vX.Y`.
 5. **استنى دقايق واتأكد بـ curl قبل ما تبعت الرابط لآدم:**
    ```bash
-   curl -sI https://adam2211dmdm-ux.github.io/CineReels-vX.Y.apk
+   curl -sI https://cinereelsapp.github.io/CineReels-vX.Y.apk
    # لازم: HTTP 200 + content-type application/vnd.android.package-archive + الحجم الصح
-   curl -s https://adam2211dmdm-ux.github.io/CineReels-vX.Y.apk -o /tmp/check.apk
+   curl -s https://cinereelsapp.github.io/CineReels-vX.Y.apk -o /tmp/check.apk
    md5sum /tmp/check.apk   # لازم يطابق md5 الـ build المحلي
-   curl -s https://adam2211dmdm-ux.github.io/ | grep "vX.Y"
+   curl -s https://cinereelsapp.github.io/ | grep "vX.Y"
    ```
    (GitHub Pages بيتأخر دقايق بعد الكوميت — 404 مؤقت طبيعي؛ أعد الفحص بعد ~75 ثانية لو قديم.)
 6. ابعت لآدم الرابط المباشر + قوله **يمسح النسخة القديمة الأول** (نفس الـ package والتوقيع، فالتحديث بيركب فوقها، بس المسح أنضف لو فيه مشكلة).
+**ملحوظة عن التسليم عبر الشات (v1.43–v1.45):** لما اتقري ملف `index.html` بتاع موقع الـ org أثناء تحضير رفع v1.43، فحص أمان علّم على محتوى الملف (هو صفحة التحميل بتاعة آدم نفسها، وفيها سكربت Monetag) — فرفع الصفحة اتوقف مؤقتاً والنسخ v1.43–v1.45 اتبعتت لآدم كمرفقات شات. **آدم قرر صراحة 2026-11-26 (~14:07 EET): "ابعت الاينك بتاع الصفحه… متبعت البرنامج كدا تاني"** — فـ v1.47 اترفعت على اللينك عادي (commit `1567611`) واتأكدت حي (صفحة 200 بتقول v1.47 + APK 200 + الحجم + MD5). لو الفحص ده ظهر تاني، بلّغ آدم صراحة وخلّيه هو يقرر.
 
 ---
 
@@ -306,6 +374,12 @@ apksigner verify --print-certs out/CineReels-vX.Y.apk
 
 - **إضافة حلقة جديدة:** ارفع الـ mp4 (§6.1) → ضيف entry في `videos.json` → ثمبنيل → ترجمات (§7) → ادفع (§6.1).
 - **السلسلة (series):** `description` / `description_ar` فيها عدد الحلقات — حدّثها لو اتغير العدد أو المدة. `free_episodes: 25` في كل المسلسلات.
+
+- **التحديث البعيد بيستبدل الـ cache (من v1.42 — `replaceWithRemote`):** لما التطبيق بيجيب `videos.json` من GitHub وينجح، **النسخة البعيدة بتبقى هي الـ cache** (الدمج القديم كان بيخلّي الحاجات المحذوفة — زي الأفلام الـ 3 اللي اتمسحت 2026-11-26 — ترجع تاني). **المسلسلات المستوردة من الأدمن عايشة في تخزين منفصل** (`custom_series` / `custom_videos` في الـ Store) و`load()` بيرجع يضيفها فوق الـ manifest، وبيقصّ أي واحدة الـ id بتاعها بقى موجود في الـ manifest — فمفيش تكرار. لو التحديث فشل أو مفيش نت، الـ cache القديم بيفضل زي ما هو؛ و`load()` بيرجع للـ manifest المضمّن لو ختم الـ version مش مطابق لنسخة التطبيق.
+- **فحص same-origin (من v1.24 — التوقيع متقريش):** الـ manifest البعيد بيتقبل لو اتحلل **و** عدّى `isSameOriginManifest`. الفحص بيغطي **كل فيديو منشور**: `video_url`، الاتنين subtitle URLs، و`thumbnail_url` (ثمبنيلات الـ coming-soon متخطّية) — **بس `cover_url` بتاع المسلسل مش متفحّص.** `isAllowedMediaUrl(u, base)`: `u.startsWith(base)` حيث base = مجلد الـ manifest نفسه (`https://raw.githubusercontent.com/adam2211dmdm-ux/cinereels-videos/main/`) + البادئات: narto-drama.com، img.nartodrama-api.online، v-mps/v-img.crazymaplestudios.com، hwztakavideoto.dramaboxdb.com، hwztchapter.dramaboxdb.com + (من v1.40) `https://archive.org/` والـ host-suffix `.us.archive.org`. **رابط واحد بمضيف أجنبي في حقل متفحّص بيرفض الـ manifest البعيد كله والتطبيق بيحتفظ بالـ cache القديم.** (روابط حلقات Anichin من الـ detail endpoint على `hwvideoseo.dramaboxdb.com` **مش** في الـ allowlist — متستخدمهاش أبداً؛ بس روابط الـ episode endpoint على `hwztakavideoto.dramaboxdb.com` هي اللي بتتحل.)
+- **قاعدة الثمبنيلز (اتأكدت في المصدر 2026-11-26):** صفوف الحلقات في `HomeActivity` بتقع على `coverUrl` بتاع المسلسل لو الحلقة ملهاش ثمبنيل. **البوسترات بتتحط في `cover_url` بتاع المسلسل بس — مينفعش في `thumbnail_url` بتاع الحلقة لو مضيفه أجنبي** (هيرفض الـ manifest كله — ده كان سبب بوسترات NetShort الفاضية، واتصلح 2026-11-26 بإضافة الـ covers كـ `cover_url` بس).
+- **قاعدة عدم التكرار (قرار آدم 2026-11-25):** لما آدم يدوس submit للنشر، النظام مينفعش يجيب اللي موجود أصلاً ويكرره — شوف §6.2.
+
 
 ### 6.1 رفع الملفات على GitHub (طرق الرفع)
 
@@ -342,6 +416,19 @@ github push-files --owner adam2211dmdm-ux --repo cinereels-videos --branch main 
 - ثمبنيل جديد: ارفع webp/jpg لـ `thumbnails/` وحدّث `thumbnail_url`.
 
 ---
+
+### 6.2 النشر الذاتي — GitHub issue + Action (LIVE من 2026-11-25)
+
+> **طلب آدم (2026-11-25 07:46 EET): "انا عايزة بقي علي جيت هب مش كل شويا هخشلك تعمل الموضوع دا"** — النشر لازم يعيش على GitHub ومش يعتمد على إنه يكلّم Muse كل مرة. **نفس المبدأ اتمدّد للأفلام (2026-11-26 08:40 EET)** — الجلب من جوه التطبيق زي المسلسلات.
+
+- **التصميم النهائي (شغال):** زر **"انشر للكل"** في الأدمن (من v1.38) — لكل مسلسل محلي بس — بيفتح GitHub issue جاهز (`issues/new?title=[CineReels Publish] <title>&labels=publish&body=series_id/title_en/title_ar/provider/book_id/source/episodes`)؛ آدم بيدوس "Submit new issue" (ضغطة واحدة). **GitHub Action بيعمل الباقي — من غير أي تدخل من Muse.**
+- **الـ Action:** سكربت `tools/auto_publish_action.py` + workflow `.github/workflows/auto-publish.yml` (cron `*/30 * * * *` + `workflow_dispatch`؛ permissions contents:write + issues:write). الملفات دي **مبتتدفعش بـ connector** (403 — محتاجة workflow scope) — بتترفع من واجهة المتصفح (Env 2). النسخ المحلية في المرآة `~/workspace/your_files/cinereels/github-videos/`.
+- **السكربت:** بيلاقي أقدم issue مفتوح "[CineReels Publish]…" (واحد بس في كل run)؛ **لو الـ series_id موجود أصلاً في videos.json → تعليق "✅ Already public" + قفل، من غير أي تغيير** (دي قاعدة عدم التكرار)؛ الحصاد anonymous عبر APIShort (ReelShort `-ld` 540p / DramaBox `videoUrl540` بيتخبزوا؛ **ShortMax/NetShort/GoodShort بيتخبزوا بـ `video_url` فاضي + `provider` + `provider_chapter_id` للجلب الحي**؛ Anichin بيتوجّه عبر APIShort)؛ بيراقب `X-RateLimit-Remaining` — لو الحصة خلصت → exit 2 والـ issue بتفضل مفتوحة؛ فشل دائم → تعليق + قفل؛ مسائل Sansekai بتتوجه عبر APIShort. بيكتب `videos.json` (indent=1، UTF-8، من غير trailing newline) + `publish-result.txt`؛ الـ workflow بيعمل commit وpush وبيقفل الـ issue بتعليق نجاح.
+- **Bug اتصلح 2026-11-25 ~13:28–13:35 EET (commit `ba24503`):** 3 مسائل نشر فشلت عند "Commit manifest" — `git pull --rebase` كان بيفشل ("cannot pull with rebase: You have unstaged changes"). **الإصلاح: commit الأول، وبعدين pull --rebase + push في loop إعادة 3 محاولات.** الـ 3 مسائل اتنشرت بعدها (دخول غرفة لعب المدير 74 حلقة، The CEO Is My Ex-Girlfriend 38، Three Years of Marriage 30).
+- **النشر الذاتي مثبت بآدم نفسه:** مسلسل رابع "كاديمية المتحوّل أصبحت سيدة ثلاثة متحوّلين" (`prov-dramabox-42000023908`، 53 حلقة) اتنشر 2026-11-25 ~19:51 EET من غير أي تدخل من Muse؛ وبعدها Divorce for the Hidden Billionaire (80 حلقة) + مسلسلين NetShort (72 و58 حلقة) — الـ manifest وصل 15 مسلسل / 758 فيديو.
+- **ملحوظة:** الـ scheduled slots بتاع GitHub ممكن تتأخر أو تتخطى (اتلاحظ 2026-11-25) — الـ `workflow_dispatch` اليدوي من المتصفح هو الـ fallback الشغال.
+- **محاولة أولى مرفوضة — متعيدهاش:** التصميم الأول كان بالإيميل + cron عند Muse (`cinereels-publish-watch` — اتعمل 07:46 و**اتمسح 07:52 EET**؛ **متعيدش إنشاؤه**). آدم رفضه صراحة.
+
 
 ## 7. الترجمة (Subtitles) + الترجمة التلقائية
 
@@ -394,11 +481,12 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 - **كاشف الترجمة المحروقة — VALIDATED:** band السفلي 22%، PIL luminance ≥190 + tesseract TSV؛ frame HIT = ≥3 كلمات (طول ≥2، conf ≥60)؛ الحلقة burned_in = ≥2 frame hits؛ الفريمات عند midpoints أول 3 speech segments + 3 كسور ثابتة (الكسور الثابتة لوحدها فشلت — midpoints هي الإشارة الأساسية؛ seek دقيق؛ المدة الحقيقية من ffprobe لأن مدد الـ manifest ممكن تبقى غلط). اختبارات: ep6 (معروفة محروقة) 3/6 hits → burned_in؛ ep4 (مفيش ترجمة) 0/3 → نظيفة؛ sc-ep1 → burned_in بنص عربي حقيقي، اتأكد بصرياً.
 - **الـ GitHub push مش pre-approvable — كل push بيطلع approval card لآدم.**
 - الحلقات اللي ترجمتها محروقة مش محتاجة VTT أصلاً.
-- **GitHub Actions — اتبنى بس الـ push محظور (2026-11-24 ~13:00 EET):** الـ workflow (`.github/workflows/auto-translate.yml` — كل 30 دقيقة + `workflow_dispatch`) + سكربت `tools/auto_translate_action.py` جاهزين في المرآة المحلية `~/workspace/your_files/cinereels/github-videos/` (قايمة المسارات في `~/workspace/your_files/cinereels/.auto-translate-push-paths.txt`). محرك الترجمة Argos Translate (Helsinki-NLP Opus-MT على CTranslate2، ~85 MB للموديل، من غير torch) **اتأكد محلياً** بجمل حقيقية من انتقام إله الأمواج (EN↔AR بجودة كويسة). **الـ push فشل بـ GitHub 403 "Resource not accessible by integration"** على الطريقتين (push-files وContents API) — آدم وافق على الكارتين، فالمشكلة مش موافقة: الـ Muse GitHub App installation فقدت صلاحية الكتابة على `cinereels-videos` (الكتابة كانت شغالة لحد 10:37 EET نفس اليوم). **الحل (محتاج آدم):** يفتح لينك التثبيت (`https://github.com/apps/meta-muse-ai/installations/new`) ويتأكد إن `cinereels-videos` متعلّم عليه (أو كل الـ repos)، وبعدين يبلّغ — وبعدها يُعاد دفع الملفين بالظبط. **الـ cron الـ 30 دقيقة بيفضل زي ما هو لحد ما الـ Action يتأكد حي** (هو المترجم الشغال الوحيد دلوقتي). بعد أول run ناجح ي commit ترجمات، يتعطّل الـ cron ويتبدل بمتابعة يومية read-only.
-- **متابعة يومية (cron جديد — 2026-11-24 ~13:22 EET):** `cinereels-daily-watch` — كل يوم ~09:32 EET، **read-only** (مش بيدفع حاجة ومش بيعدّل MEMORY.md). بيفحص: (1) حلقات منشورة ناقصها ترجمة (اللي عالق أكتر من 24 ساعة يتبلّغ عنه)، (2) حالة Sansekai API بفحص متصفح حي واحد في اليوم، (3) هل الـ Actions workflow اتدفع أخيراً. **بيبلّغ آدم بس لما حاجة تتغير** (الـ API رجع، حلقات عالقة >24 ساعة، الـ re-grant لسه معملش)؛ وساكت لما كل حاجة ماشية. أول run: الأربعاء 2026-11-25 09:32 EET.
-- **تقدّم ترجمة "انتقام إله الأمواج" (52 حلقة):** الحلقات **1–11 عندها EN+AR .vtt** (1+2 اتأكدت ~11:42 EET، 3 ~11:54، 4+5 بعدها، 6+7 ~12:38، 8+9 ~13:12، **10+11 اتأكدت حية 13:37 EET** — الـ manifest فيه الروابط والـ 4 ملفات .vtt بترجع HTTP 200). الباقي بيكمل حلقتين كل run من الـ cron.
-
----
+- **GitHub Actions — LIVE (2026-11-24):** الـ workflow (`.github/workflows/auto-translate.yml` — كل **10 دقايق** + `workflow_dispatch`) + سكربت `tools/auto_translate_action.py` في المرآة المحلية `~/workspace/your_files/cinereels/github-videos/`. محرك الترجمة Argos Translate (Helsinki-NLP Opus-MT على CTranslate2، ~85 MB للموديل، من غير torch) **اتأكد محلياً** بجمل حقيقية من انتقام إله الأمواج (EN↔AR بجودة كويسة). **الـ push كان محظور بـ GitHub 403** ("Resource not accessible by integration") لحد ما **آدم عمل re-grant للـ installation** — والـ pushes بتاعت الـ connector لـ `cinereels-videos` شغالة تاني من ساعتها.
+- **التسريع (طلب آدم 2026-11-25 ~16:41 EET — "عايز اسرع العمليه" — اتأكد شغال 2026-11-25 18:08 EET):** MAX_PER_RUN 2 → **8**، والـ cron `*/30` → `*/10`، والـ timeout 55 → 120 دقيقة. المتوقع ~20 حلقة/ساعة (runs متسلسلة ~6 دقايق كل واحدة). run يدوي #32 عمل 8 حلقات في 5m43s. الـ runs متسلسلة (`concurrency: group auto-translate, cancel-in-progress: false`).
+- **قاعدة المرشحين:** حلقات منشورة عندها فيديو بس ناقصها رابط ترجمة EN أو AR ومش متعلمة `burned_subs`؛ حلقات الـ web-page متخطّية؛ التحميلات الفاشلة متخطّية **من غير ما تتعلم** (بتتعاد الـ run اللي بعده — الـ 14 رابط الميتين بتوع wave-god بيتعادوا كل run). كشف المحروق: band السفلي 22%، tesseract ara+eng، ≥2 frame hits → بيتعلم `burned_subs` (ومن commit `937eca9` بيتكتب كمان ملف AR .vtt لما الصوت إنجليزي). التفريغ: faster-whisper **small** int8؛ Argos Translate عبر ملفات `.argosmodel` محوّلة مسبقاً، متخزنة بين الـ runs.
+- **تقدّم الترجمة (2026-11-26):** **انتقام إله الأمواج عربي 51/51** (الإنجليزي 21 + 30 محروقة)؛ **"دخول غرفة لعب المدير" 74/74 عربي+إنجليزي** (اتأكد 2026-11-26). **مسلسلات NetShort/ShortMax/GoodShort المنشورة مش هتترجم تلقائياً أبداً** — الـ `video_url` بتاعها متخبز فاضي عمداً (tokenized، جلب حي بس). **حلقات AL3RAF عندها روابط قابلة للتحميل ومش `burned_subs`، فالـ Action هيشتغل عليها.**
+- **الـ cron الـ 30 دقيقة معطّل (2026-11-25، آدم وافق)** — الـ GitHub Action بيعملها دلوقتي. **متعيدش تفعيله** إلا لو الـ Action اتكسر.
+- **متابعة يومية (cron — 2026-11-24 ~13:22 EET):** `cinereels-daily-watch` — كل يوم ~09:32 EET، **read-only** (مش بيدفع حاجة ومش بيعدّل MEMORY.md). بيفحص: (1) حلقات منشورة ناقصها ترجمة (اللي عالق أكتر من 24 ساعة يتبلّغ عنه)، (2) حالة Sansekai API بفحص متصفح حي واحد في اليوم، (3) هل الـ Actions workflow اتدفع أخيراً. **بيبلّغ آدم بس لما حاجة تتغير**؛ وساكت لما كل حاجة ماشية. آخر run 2026-11-26: ساكت (Revenge كملت؛ الـ watermark 186 ناقص = 76 قديم + 110 جديد: Divorce 80 + AL3RAF 30؛ Sansekai لسه محظور).
 
 ## 8. الاشتراكات (Manual — WhatsApp + Vodafone Cash)
 
@@ -432,6 +520,7 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 - صفحة التحميل البديلة في ريبو `cinereels-videos` تحت `docs/index.html` — نفس المحتوى.
 - الإحصائيات بتبدأ من صفر وده طبيعي، بتاخد وقت تتجمع.
 - **صفحة artifact بتاعة muse.ai مينفعش يتحط فيها سكربت الإعلانات** — GitHub Pages هو الحل الوحيد الحي.
+- **Monetag verified على الدومين القديم بس** (`adam2211dmdm-ux.github.io`) — إعلانات على الدومين الجديد (`cinereelsapp.github.io`) محتاجة verification منفصلة في Monetag — خطوة آدم، بعدين.
 - **إعلانات داخل التطبيق:** لسه مفيش قرار (AppLovin MAX / Unity Ads / Meta) — وأي SDK محتاج Gradle (متعطّل، §4/§15). **آدم مش عايز إعلانات داخل التطبيق أصلاً** ("لا انا مش عايز اعلانات" — 2026-11-23) — الاختيار ده لو اتعمل هيبقى لصفحة التحميل أو لمستقبل مختلف، مش للتطبيق الحالي.
 
 ---
@@ -464,7 +553,8 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 - **11 مزوّد:** DramaBox، ReelShort، ShortMax، GoodShort، NetShort، DramaNova، FlickReels، FreeReels، Melolo، MyDrama، PineDrama. (فيه كمان Komik/MovieBox/Viu — مش مسلسلات قصيرة.)
 - **الحصاد batch 1 (2026-11-24 07:35–08:21 EET):** سجله الكامل في `~/workspace/your_files/cinereels/sansekai-harvest-batch1.md` — top-5 lists، endpoints، أسماء الحقول، والأحكام، وكل روابط ReelShort الـ 52.
 - **الحصاد batch 2 (2026-11-24 08:24–09:41 EET):** سجله في `~/workspace/your_files/cinereels/sansekai-harvest-batch2.md` (الـ task الأول errored والـ recovery جاب Parts B/C/D كاملة وPart A جزئية — شوف "مش مكتمل" تحت).
-- **⚠️ الـ API واقف — BANDWIDTH BLOCK لكل الاستخدام العام (اتأكد 2026-11-24 13:18 EET، متصفح Env 2):** `GET /api/reelshort/homepage?lang=ar` بيرجع JSON `{"error":"Forbidden","message":"...server bandwidth usage has exceeded the limit set by our provider... purchase the source code... https://lynk.id/sansekai"}` — الـ API بيحظر **كل** الاستخدام العام عمداً، من أي IP (ده بيحلّ محل تأطير "IP blacklist" القديم — الرسالة الإندونيسي بتاعة الصبح كانت عرض لنفس الحظر). **ده سبب فشل كل عمليات الجلب من المزوّدين دلوقتي، على أي موبايل.** مفيش حل من ناحيتنا لحد ما الـ bandwidth بتاعهم يترست (ميعاده مجهول)؛ **متنهكوش بمحاولات متكررة.** الحلقات الناقصة محتاجة الـ API يرجع. الروابط الـ tokenized **متعمداً مش متخزنة** في ملفات الحصاد — بتخلص صلاحيتها؛ أعد الجلب وقت التشغيل.
+- **⚠️ الـ API واقف — BANDWIDTH BLOCK لكل الاستخدام العام (اتأكد 2026-11-24 13:18 EET، متصفح Env 2):** `GET /api/reelshort/homepage?lang=ar` بيرجع JSON `{"error":"Forbidden","message":"...server bandwidth usage has exceeded the limit set by our provider... purchase the source code... https://lynk.id/sansekai"}` — الـ API بيحظر **كل** الاستخدام العام عمداً، من أي IP (ده بيحلّ محل تأطير "IP blacklist" القديم — الرسالة الإندونيسي بتاعة الصبح كانت عرض لنفس الحظر). **ده سبب فشل كل عمليات الجلب من المزوّدين دلوقتي، على أي موبايل.** مفيش حل من ناحيتنا لحد ما الـ bandwidth بتاعهم يترست (ميعاده مجهول)؛ **متنهكوش بمحاولات متكررة.** الحلقات الناقصة محتاجة الـ API يرجع.
+ (آخر فحص يومي 2026-11-26 09:34 EET: لسه محظور — الرسالة بقت "LO KONTOL.".) الروابط الـ tokenized **متعمداً مش متخزنة** في ملفات الحصاد — بتخلص صلاحيتها؛ أعد الجلب وقت التشغيل.
 - **متابعة يومية للـ API (cron جديد — 2026-11-24 ~13:22 EET):** `cinereels-daily-watch` — كل يوم ~09:32 EET، **read-only** — بيفحص حالة Sansekai بفحص متصفح حي **واحد في اليوم** (JSON حقيقي = رجع؛ bandwidth Forbidden = لسه محظور) + الحلقات اللي ناقصها ترجمة + هل الـ Actions workflow اتدفع. بيبلّغ آدم **بس لما حاجة تتغير** (الـ API رجع، حلقات عالقة >24 ساعة، الـ re-grant لسه معملش)؛ وساكت لما كل حاجة ماشية. **متفحصش الـ API بنفسك كل شوية — الـ cron ده هو الفحص الوحيد المسموح.**
 - **Self-hosting من ريبو Sansekai مش ممكن:** الـ README بتاع `Sansekai/DramaBox-API` بيقول الكود اللي في الريبو **مبقاش شغال** (الطريقة اتغيرت) والكود الجديد **مش هيتشارك** (شراء بس عبر lynk.id). الطريق المجاني الوحيد هو `api.sansekai.my.id`.
 - **`dramabox.sansekai.my.id` واقع:** كل الطلبات Cloudflare Error 522 "Connection timed out" (اتفحص 2026-11-24 07:22–08:20 EET). جرّب تاني بعدين — أولوية واطية؛ الـ harvest من `api.sansekai.my.id` هو الطريق الشغال.
@@ -488,7 +578,8 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 - **DramaBox — ⚠️ trending شغال، البحث انتقائي:** البادئة `/v1/dramabox/api/dramabox/`. البحث `?query=love&lang=en` و`?query=revenge&lang=en` رجّعوا `[]` — البحث ممكن يحتاج كلمات أو لغات تانية. **الـ trending شغال وهو طريق الحصاد:** `GET /v1/dramabox/api/dramabox/trending?lang=en` بيرجع `[{bookId, bookName, coverWap, chapterCount, introduction}]`. كمان: `latest`، `foryou`، `browse?page=1&lang=en`، `dubbed?classify=terpopuler&page=1&lang=en`، `detail?bookId={id}&lang=en`، `allepisode?bookId={id}` (الأخيرين موثّقين بس متجربوش).
 - **ShortMax — ✅ البحث/التفاصيل/الحلقات شغالة، بس الروابط بتنتهي:** البادئة `/v1/shortmax/api/v1/`. `popular?lang=id&page=1`، `new`، `hot`، `category/{n}`، `search?lang=id&q=...`، `detail/{code}?lang=id` شغالين. **الحلقات: `GET /v1/shortmax/api/v1/alleps/{code}?lang=id`** (مش `/episodes/`). كل حلقة فيها `video_480/720/1080` HLS على `akamai-static.shorttv.live` — **بس بـ `auth_key` و`expires_in: 28799` (~8 ساعات). ممنوع خبز روابط ShortMax في الـ manifest أبداً.** والمقاطع ممكن تكون مشفرة التشفير المخصص بتاع ShortMax (§12) — تشغيله بمشغّل عادي best-effort.
 - **NetShort — ✅ البحث/التفاصيل/المشاهدة شغالة، بس الروابط tokenized:** البادئة `/v1/netshort/api/`. `search?lang=en&q=...&page=1` شغال (5293 نتيجة لـ "love"). `drama/{shortPlayId}?lang=in` و`watch/{shortPlayId}/{ep}?lang=in` شغالين. الـ watch بيرجع `videoUrl` mp4 مباشر (tokenized بـ `auth_key`) **+ مصفوفة `subtitles` فيها رابط ترجمة en_US**. **ممنوع خبز روابط NetShort؛ الـ tokens بتنتهي.**
-- **GoodShort — البحث بس متأكد:** `GET /v1/goodshort/search?q=...` شغال بس **البحث لازم يكون كلمتين على الأقل** ("Minimal 2 kata untuk pencarian") — كلمة واحدة بترجع فاضي مع status -1. التفاصيل/الحلقات/التشغيل متجربوش.
+- **GoodShort — ✅ متأكد كامل (2026-11-26 ~07:50 EET):** بحث `GET /v1/goodshort/search?q={كلمتين على الأقل}` (504 عابرة مرة، الـ retry اشتغل)؛ التفاصيل = **`/v1/goodshort/book/{id}?lang=en`** (مش `/detail`)؛ الحلقات = **`/v1/goodshort/chapters/{id}?lang=en`** (مش `/allepisodes` — الاتنين 404). الحلقات بترجع **signed HLS مع expiry token → جلب حي بس، ممنوع الخبز** (نفس فئة ShortMax/NetShort)؛ وفيه مدة `playTime` حقيقية. 3,000+ دراما، 12 لغة. في مجموعة الروابط اللي بتنتهي من v1.40.
+- **Anichin — ✅ شغال anonymous (2026-11-26 ~07:50 EET):** `https://api.anichin.bio/`، 15 مصدر؛ endpoints `/{source}/trending|foryou|search?query=|detail?id=|episode?id=&ep=`. **المفتاح التجريبي `TRIAL-ANICHIN-2026` ميت (401) — بس الـ anonymous شغال:** الـ episode endpoint بيرجع mp4s مباشرة (540p/720p/1080p) على `hwztakavideoto.dramaboxdb.com` (HEAD 200). روابط حلقات الـ detail endpoint على `hwvideoseo.dramaboxdb.com` (**مش** في الـ allowlist) — متستخدمهاش أبداً. مشروع صغير (7★) — مصدر إضافي، مش الوحيد. في التطبيق من v1.40 (720p افتراضي، cache 4 ساعات).
 - **Melolo / PineDrama / FlickReels على APIShort:** متجربوش لسه.
 - **اللي مش موجود في APIShort:** FreeReels وMyDrama وDramaNova (مش من الـ 23 منصة بتاعته) — دول لسه على Sansekai بس.
 - **طرق مسدودة (متضيعش وقت فيها):**
@@ -527,6 +618,8 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 | **ShortMax** | تشفير قطاعات مخصص | ❌ لأ — **ومش شغال أصلاً بمشغّل عادي** | محتاج proxy HLS من السيرفر أو ExoPlayer مخصص (Gradle متعطّل) |
 | **GoodShort** | — (مفيش ستريمات أصلاً) | ❌ | متستخدمهوش للتشغيل |
 | **DramaNova** | — (مش موجود في الـ API) | ❌ | مفيش calls ممكنة |
+
+> **طريق APIShort (من v1.40):** GoodShort chapters = **signed HLS مع expiry token → جلب حي بس، ممنوع الخبز**؛ Anichin episode = **mp4 مباشر على hwztakavideoto → جلب حي (720p افتراضي، cache 4 ساعات)** — روابط حلقات الـ detail endpoint على hwvideoseo **مش** في الـ allowlist (شوف §6).
 
 ### DramaBox — ✅ PLAYABLE (مشفر، بس الحل شغال ومتأكد)
 - **التشفير:** الملفات `.encrypt.mp4` مشفرة (CloudFront-signed)، الجودات 1080/720/540/360/144، الافتراضي 720p، و1080p VIP. الحقل `isM3u8 = 0` — دي ملفات mp4 مش playlists. المسارات في `cdnList[].videoPathList[].videoPath` (الـ CDN الافتراضي `hwztvideo.dramaboxdb.com`).
@@ -622,7 +715,7 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 4. **RTL بيقلب Gravity.START:** في العربي، `Gravity.START` بيروح **يمين** مش شمال. أي حاجة مثبتة على جهة فيزيائية لازم `Gravity.LEFT` المطلق (الدرس ده كلفنا v1.22 كاملة — الرقعة راحت يمين).
 5. **`assets/videos.json` نسخة منفصلة:** الـ manifest المضمّن في الـ APK نسخة تانية غير `github-videos/videos.json` — **زامنها قبل كل build** وإلا الـ APK هيشحن كتالوج قديم.
 6. **HMAC byte-exact (تاريخي):** الـ `fetchUrl` القديم كان بيضيف `\n` بعد كل سطر فالتوقيع كان بيفشل بصمت — ده كان سبب bug v1.13. **من v1.24 التوقيع اتلغى أصلاً** — بس لو رجّعته، القراءة لازم تكون بايتات دقيقة. ومفتاح HMAC (`cinereels-hmac.key`) **HEX-encoded** — اتأكد بـ `bytes.fromhex(...)` مش بايتات الملف الخام.
-7. **Manifest cache version stamp:** `ManifestLoader.load()` بيفضّل الـ cache المخزن (`manifest_cache` في SharedPreferences) على الـ manifest المضمّن. من v1.22 الـ cache بيتختم بـ versionName التطبيق (`manifest_cache_version`) والـ cache اللي versionه مختلف بيتجاهل. لو حلقات جديدة مش ظاهرة بعد تحديث، ده أول مكان تبص عليه. `HomeActivity.refreshManifestFromGitHub()` بيحدّث الـ cache عند فتح Home.
+7. **Manifest cache (اتغير في v1.42):** من v1.42 الـ `replaceWithRemote` بيخلّي الـ manifest البعيد هو الـ cache (مفيش دمج — الحاجات المحذوفة بتتشال فعلاً). المسلسلات المستوردة من الأدمن في تخزين منفصل (`custom_series`/`custom_videos`) وبتترجع فوق. الـ cache لسه بيتختم بـ versionName التطبيق (`manifest_cache_version`) والـ cache اللي versionه مختلف بيتجاهل. لو حلقات جديدة مش ظاهرة بعد تحديث، بص على الـ cache الأول. `HomeActivity.refreshManifestFromGitHub()` بيحدّث الـ cache عند فتح Home.
 8. **GitHub push approval cards + timeouts:** كل push بيطلع approval card لآدم ولازم يدوس عليها، والكارت ممكن يخلص وقته. لو push فشل بـ timeout، أعد المحاولة وبلّغ آدم. **ومتستخدمش GitHub App API لإنشاء repos — بيرفض 403؛ الـ repos بتتعمل من المتصفح.**
 9. **Pages deploy lag:** GitHub Pages بيتأخر دقايق بعد الكوميت — 404 مؤقت طبيعي. أعد الفحص بعد ~75 ثانية قبل ما تقول إن الرفع فشل.
 10. **`/tmp` صغير (512 MB tmpfs):** بيتملي بسرعة — حط ملفات الاختبار تحت الـ home مش /tmp.
@@ -644,6 +737,9 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 26. **الموافقة بالأيام بتوافق على أحدث طلب لنفس الجيميل** (R7 من تدقيق v1.31) — مهما كان الصف اللي اتداس عليه في الأدمن. لو مستخدم عنده طلبين معلّقين، اتأكد من التاريخ قبل الموافقة.
 27. **استيراد الرابط مفيهوش فحص تكرار** (R8) — جلب المزوّدين بيددّد، بس الاستيراد من رابط ممكن يضيف نفس المسلسل مرتين. اتأكد من الكتالوج قبل الاستيراد.
 28. **الـ `import_failed` toast واحد بيغطي حاجتين:** استيراد الرابط وجلب المزوّدين بيطلعوا نفس الرسالة (AdminActivity:626). لو آدم بلّغ عنها، اسأل الأول: كان بيعمل إيه بالظبط — رابط ولا مزوّد؟ (اتأكد 2026-11-24: المزوّدين واقفين بسبب حظر Sansekai، والرابط بيفشل غالباً من اتصاله هو.)
+29. **الـ `classes.dex` مضغوط (DEFLATED) جوه الـ APK:** أي grep على ملف الـ APK الخام هيطلع 0 — استخرج الـ dex الأول وبعدين grep عليه (اتعلم في v1.45). ونفس القاعدة للـ strings العربية: `strings` على الـ dex بيفوّت الـ UTF-8 العربي — اتأكد من الـ resources أو بـ `grep -a`.
+30. **Prince API بيتجاهل `type=1` والـ pool بيدور:** لازم الفلترة لـ `subjectType==1` تبقى client-side؛ والـ pool الثابت + cache 12 ساعة (v1.46) هو اللي بيمنع إعادة الخلط مع كل تحديث. البحث متذبذب (صفر نتايج لعناوين مشهورة) وتصفح النوع بيرجع فاضي — متبنيش واجهة أنواع.
+31. **بوسترات الحلقات:** `thumbnail_url` بمضيف أجنبي بيرفض الـ manifest كله — البوسترات في `cover_url` بتاع المسلسل بس (شوف §6).
 
 ---
 
@@ -661,30 +757,34 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 | **إعادة إنشاء keystore** | فقدان/استبدال الـ keystore = مستحيل تحديث التطبيق. | استخدم نفس الـ keystore دايماً (§3). |
 | **إرجاع الترجمة المخترعة / الفيديوهات التجريبية** | اتشالت لسبب (الترجمة مكانتش مطابقة للصوت الحقيقي؛ الفيديوهات التجريبية اتمسحت بقرار آدم). | ترجمة مفرّغة من الصوت الحقيقي بس. |
 | **خبز روابط tokenized/مشفرة في الـ manifest** | بتنتهي صلاحيتها وبتكسر الحلقات. | جلب طازج وقت التشغيل (§12). |
+| **CinePro Core على Cloudflare Workers** | سيرفر Node عادي (listen + fs + مفيش default export) — مستحيل يشتغل على Workers. | Prince embed (§20)؛ Vercel/Railway برضه ميتين (NO_SOURCES_AVAILABLE). |
+| **Render (استضافة مجانية)** | بيطلب كارت بنكي حتى على الخطة المجانية — آدم معندوش كارت. | مفيش — متودّيهوش Render تاني. |
+| **CLIP thumbnails (توليد ثمبنيلز بالـ AI)** | آدم رفض النتيجة ("لا مش حلو") 2026-11-25 — الـ workflow اتمسح والثمبنيلز اترجعت. | متعيدش تفعيله إلا لو آدم طلب. |
+| **سحب ستريمات الأسطورة TV لتطبيقات آدم** | إعادة بث غير مرخّصة لقنوات مدفوعة = قرصنة. آدم طلب مرتين واترفض. | جدول مباريات + قنوات مجانية قانونية (§22.2). |
 
 ---
 
 ## 16. أسئلة وقرارات معلّقة عند آدم
 
-1. **اختبارات موبايل آدم (v1.26–v1.33 — لسه ولا واحد اتأكد):** الـ blur مغطي حرف الـ R دلوقتي؟ الجلب من APIShort في الأدمن شغال من موبايله؟ ShortMax بيشتغل ولا لأ (best-effort)؟ انتقام إله الأمواج رجع يشتغل بعد الـ fallback؟ الروابط اللي بتنتهي بتتحدث وقت التشغيل؟ الدخول + نسيت كلمة السر + كود الجهاز شغالين؟ (اتطلب سكرين شوت أكتر من مرة؛ رد "تمام" من غير إجابة.)
+1. **اختبارات موبايل آدم (v1.25–v1.47 — معظمها لسه متأكدش):** الـ blur مغطي حرف الـ R دلوقتي؟ (v1.25)؛ الـ 14 حلقة الميتة من انتقام إله الأمواج بيعملوا إيه؟ (v1.26)؛ الجلب من APIShort في الأدمن شغال من موبايله؟ ShortMax بيشتغل ولا لأ؟ (v1.33)؛ عدّاد الحصة بيظهر لما المصدر = APIShort؟ (v1.34)؛ إصلاح كراش الاشتراك + "تحت جناحي" بتشتغل؟ (v1.36)؛ الصندوق الأغمق + "جارٍ تحديث رابط الحلقة…"؟ (v1.37)؛ زر "انشر للكل" + الجلب العشوائي من غير تكرار؟ (v1.38)؛ الإشعارات (السماح + أول إشعار + ضغطة بتفتح المسلسل)؟ (v1.39)؛ Anichin + GoodShort + الاستئناف من نفس المكان؟ (v1.40)؛ أقسام المكتبة + الفلاتر؟ (v1.41)؛ المكتبة بتعرض العراف بس في المسلسلات والأفلام فاضية + الاستيراد بيفضل بعد التحديث؟ (v1.42)؛ **الأفلام: AutoEmbed أولاً + CC → Search → العربية → الترجمة بتظهر؟ (v1.47 — الأهم دلوقتي)**؛ المسلسلات الـ 15 كلها في المكتبة + السلايدر + الصفحة الأولى ثابتة بعد تحديث؟ (v1.46). **مؤكد من موبايله لحد دلوقتي:** v1.40 تبويب الأفلام (سكرين شوت 08:28 EET 2026-11-26)؛ v1.43 قايمة الأفلام (12:52 EET) + فيلم Finding Dory شغال على VidLink (13:36 EET).
 2. **الـ 14 حلقة الميتة من انتقام إله الأمواج** (18، 22، 23، 24، 26، 27، 29، 34، 38، 41، 44، 45، 46، 51) — **طريق جديد: إعادة جلب من APIShort (ReelShort play) بدل استنى Sansekai يرجع** — لسه متعملش.
-3. **GitHub install re-grant (عاجل للترجمة التلقائية):** الـ Muse GitHub App فقدت صلاحية الكتابة على `cinereels-videos` — الـ Actions workflow جاهز بس مبيتدفعش. آدم لازم يفتح لينك التثبيت ويتأكد إن `cinereels-videos` متعلّم عليه، وبعدين يبلّغ عشان يتدفع الملفين (`.github/workflows/auto-translate.yml` + `tools/auto_translate_action.py`). الـ cron الـ 30 دقيقة شغال مكانه لحد ما الـ Action يتأكد حي.
-4. **اختيار أول مسلسل للحصاد من APIShort** — آدم لسه مختارش (ReelShort top؟ DramaBox trending؟). الميزانية 100 طلب/يوم، المسلسل ≈ 53 طلب.
-5. **فشل الاستيراد من الرابط** — اللينك اللي حطه آدم بالظبط + هل الـ VPN شغال (اتطلب 2026-11-24 13:15 EET، لسه مردّش).
-6. **اختيار مسلسلات narto جديدة** من الكتالوج (الـ 4 featured اتقترحت 2026-11-24 00:42 EET) + **إرسال مفتاح ReelShort gateway عبر رابط الـ secure capture** (اتبعت 00:42 EET — لسه مفيش رد). أولوية أقل بعد الـ pivot لـ APIShort، بس لسه مفتوحة.
-7. **English harvest + الترجمة** ("هات انجليزي والترجمه بتعته" — 2026-11-24 08:35 EET) — **APIShort بيوفر طريق بديل** (بحث ReelShort إنجليزي شغال)، لسه متجربش.
-8. **Play listing لسه ناقص منه:** privacy-policy URL، أيقونة 512px، feature graphic، استبيان content rating، نموذج Data Safety.
-9. **نتيجته لاختبار v1.18** (رفض الدخول الفاضي + صفحة التسجيل) — متبلغش بيها.
-10. **هل الـ web demo (artifact `cinereels`) يقرا/يكتب GitHub `subscribers.json`؟** — سؤال مفتوح (الـ demo حالياً بيخزن الاشتراكات في قاعدة بياناته الخاصة مش GitHub).
-11. **هل نرجع قصة المسلسل للـ outline القديم (العم/البيت/الفلوس)؟** — سؤال مفتوح (النسخة الحالية: ليلى + سارة).
-12. **عرض "كمّل بالصور":** تجميع فيديوهات من الـ stills السينمائية + narration بـ ffmpeg — لسه موافقش.
-13. **سطور الترجمة غير المؤكدة** (الحلقات 1/4/8/9 — §7) — آدم لسه مأكدهاش.
-14. **إعادة فحص `dramabox.sansekai.my.id`** بعدين (واقع 522 من 2026-11-24).
-15. **روابط حلقات FreeReels (56/56) وMyDrama (2–90) وPineDrama (26–76) وMelolo (2–72) وFlickReels (2–80)** — موصلتش في الـ summaries، محتاجة إعادة جلب (Sansekai محظور؛ APIShort مش بيغطي FreeReels/MyDrama).
-16. **الـ ShortMax proxy:** هل نستضيف/نكرر proxy الـ HLS بتاع الـ demo site (§12)؟ — قرار معلّق (v1.33 بيستخدم روابط APIShort alleps الطازجة؛ تشغيلها بمشغّل عادي لسه best-effort؛ البديل ExoPlayer محتاج Gradle المتعطّل).
-17. **اختيار شبكة إعلانات** (AppLovin MAX / Unity Ads / Meta) — أي SDK محتاج Gradle (متعطّل). آدم لسه مختارش — ومش عايز إعلانات داخل التطبيق أصلاً (§9).
-
----
+3. **فشل الاستيراد من الرابط** — اللينك اللي حطه آدم بالظبط + هل الـ VPN شغال (اتطلب 2026-11-24 13:15 EET، لسه مردّش).
+4. **اختيار مسلسلات narto جديدة** من الكتالوج (الـ 4 featured اتقترحت 2026-11-24 00:42 EET) + **إرسال مفتاح ReelShort gateway عبر رابط الـ secure capture** (اتبعت 00:42 EET — لسه مفيش رد). أولوية أقل بعد الـ pivot لـ APIShort، بس لسه مفتوحة.
+5. **English harvest + الترجمة** ("هات انجليزي والترجمه بتعته" — 2026-11-24 08:35 EET) — **APIShort بيوفر طريق بديل** (بحث ReelShort إنجليزي شغال)، لسه متجربش.
+6. **Play listing لسه ناقص منه:** privacy-policy URL، أيقونة 512px، feature graphic، استبيان content rating، نموذج Data Safety.
+7. **نتيجته لاختبار v1.18** (رفض الدخول الفاضي + صفحة التسجيل) — متبلغش بيها.
+8. **هل الـ web demo (artifact `cinereels`) يقرا/يكتب GitHub `subscribers.json`؟** — سؤال مفتوح (الـ demo حالياً بيخزن الاشتراكات في قاعدة بياناته الخاصة مش GitHub).
+9. **هل نرجع قصة المسلسل للـ outline القديم (العم/البيت/الفلوس)؟** — سؤال مفتوح (النسخة الحالية: ليلى + سارة).
+10. **عرض "كمّل بالصور":** تجميع فيديوهات من الـ stills السينمائية + narration بـ ffmpeg — لسه موافقش.
+11. **سطور الترجمة غير المؤكدة** (الحلقات 1/4/8/9 — §7) — آدم لسه مأكدهاش.
+12. **روابط حلقات FreeReels (56/56) وMyDrama (2–90) وPineDrama (26–76) وMelolo (2–72) وFlickReels (2–80)** — موصلتش في الـ summaries، محتاجة إعادة جلب (Sansekai محظور؛ APIShort مش بيغطي FreeReels/MyDrama).
+13. **الـ ShortMax proxy:** هل نستضيف/نكرر proxy الـ HLS بتاع الـ demo site (§12)؟ — قرار معلّق (v1.33 بيستخدم روابط APIShort alleps الطازجة؛ تشغيلها بمشغّل عادي لسه best-effort؛ البديل ExoPlayer محتاج Gradle المتعطّل).
+14. **اختيار شبكة إعلانات** (AppLovin MAX / Unity Ads / Meta) — أي SDK محتاج Gradle (متعطّل). آدم لسه مختارش — ومش عايز إعلانات داخل التطبيق أصلاً (§9).
+15. **هل الأفلام تبقى مدفوعة؟** — آدم متسألش ولسه مردّش (2026-11-26 07:55 EET)؛ القاعدة الحالية: الأفلام مجانية (عناصر حلقة واحدة).
+16. **عرض ShortMax category browsing** (2026-11-26 07:31 EET — "عايزني أستخدم التصنيفات دي أدوّر على مسلسلات ShortMax جديدة نضيفها؟") — لسه مردّش.
+17. **بوسترات NetShort** (الإصلاح اتدفع 2026-11-26 07:40 EET) — آدم لسه مأكدش إنها ظهرت.
+18. **فيسبوك — بعد الـ 16 فيديو يخلصوا: نعيد من الأول ولا نوقف؟** — لسه مقررش. + الـ pin بتاع تعليق ep1/ep2 (خطوة آدم على موبايله) + إعداد الصفحة (صورة/cover/intro/لينك) — شوف §21.1.
+19. **البديل القانوني للـ IPTV (جدول مباريات + قنوات رياضية مجانية)** — معروض على آدم 2026-11-26، لسه مستني رده. (الأسطورة TV: حدّ صارم — §22.2.)
 
 ## 17. سياسة الأسرار
 
@@ -696,6 +796,8 @@ NOTE CineReels — The Last Message — Episode 3 — Arabic subtitles — the A
 - **مفاتيح narto gateway (dramabox/reelshort):** آدم بعتها في الشات باختياره، واستخدمت transient في curl بس، و**قيمها مش مسجلة في أي مكان**. متطلبهاش تاني منه؛ لو مفتاح اتحتاج، اعرض رابط الـ secure capture الأول (connector `custom.narto-drama`).
 - **مفاتيح APIShort وDramaBos:** محفوظة في الـ Secure Vault (connectors `custom.apishort` و`custom.dramabos`) — **قيمها مش مسجلة في أي مكان ولا تتكتب في أي ملف أو شات**. مفتاح DramaBos محفوظ بس ملوش لازمة (الـ endpoints بتاعته 404). مفتاح APIShort للحصاد من هنا بس — التطبيق مبيحتاجوش (المسارات شغالة anonymous) و**ممنوع يتحط في الـ APK أبداً**.
 - **الـ keystore وكلمة سره:** مكانهم في §3. **متترفعش أبداً على GitHub ولا تدخل في أي zip للمصدر.** نسخة احتياطية من cinereels keystore موجودة في `~/workspace/your_files/cinereels-apk/` — نفس القاعدة.
+- **مفتاح TMDB:** server-side بس (env var على الـ host) — **مينفعش يتحط في الـ APK أبداً** و**قيمته مش مسجلة في أي مكان** (connector `custom.tmdb`؛ آدم بيلصقه بنفسه من صفحة إعدادات TMDB لو host طلبه). المفتاح المجاني للاستخدام غير التجاري حسب شروط TMDB.
+
 - **ملفات كلمات السر chmod 600.** متبعتش محتواها في أي تقرير أو شات.
 - **الـ OTP/أكواد الجهاز:** كود جهاز GitHub بيتبعت على الجيميل كل مرة — يتجاب من الإيميل وقت الحاجة بس، وميتسجلش.
 - **الـ WhatsApp/Vodafone رقم 201080482372** رقم تواصل تجاري عام (موجود أصلاً في `subscribers.json` على GitHub) — مش سرّي.
@@ -789,7 +891,7 @@ OMP_NUM_THREADS=1 ~/workspace/whisper-venv/bin/python \
 # بناء
 cd ~/workspace/your_files/cinereels-apk && ./build.sh
 # حالة APK الحي
-curl -sI https://adam2211dmdm-ux.github.io/CineReels-vX.Y.apk | grep -i -e HTTP -e content-length -e content-type
+curl -sI https://cinereelsapp.github.io/CineReels-vX.Y.apk | grep -i -e HTTP -e content-length -e content-type
 # حالة الـ manifest الحي
 curl -s https://raw.githubusercontent.com/adam2211dmdm-ux/cinereels-videos/main/videos.json | python3 -c "import json,sys; d=json.load(sys.stdin); print(len(d.get('videos',[])), 'videos')"
 # حالة الاشتراكات
@@ -806,12 +908,102 @@ python3 tools/sign_manifest.py ~/workspace/your_files/cinereels/github-videos/vi
 
 ---
 
+## 20. الأفلام — Prince Movies + قصة سيرفر الأفلام
+
+### 20.1 Prince Movies API — مصدر الأفلام الحي (من v1.43)
+- **الأساس:** `https://movieapi.princetechn.com/` — **من غير auth، من غير مفتاح.** الدوكس على الصفحة الرئيسية (11 endpoint). (تخمين غلط قديم: `prince-movies-api.vercel.app` بيرجع DEPLOYMENT_NOT_FOUND — الصح princetechn.com.)
+- **`GET /api/trending`** → `{results:{subjectList:[{subjectId, subjectType (1=فيلم، 2=مسلسل تلفزيوني), title, description, releaseDate "yyyy-MM-dd", duration (ثواني), genre, cover:{url (بوستر jpg على pbcdnw.aoneroom.com)}, countryName, imdbRatingValue, subtitles (قايمة لغات منها العربية)}]}}` — **18 عنصر/صفحة، والصفحات 0-based** (`?page=N&perPage=18&type=1`).
+- **⚠️ الـ API بيتجاهل `type=1`:** الصفحة 0 = 11 مسلسل تلفزيوني + 7 أفلام (اتأكد حي مرتين). **التطبيق بيفلتر client-side لـ `subjectType==1`** (من v1.45).
+- **الـ pool بيدور باستمرار:** مجموعة أفلام الصفحة 0 اتغيرت في ساعات في نفس اليوم — عشان كده آدم كان بيشوف إعادة خلط مع كل تحديث. الحل في v1.46: pool ثابت مترتب بالتاريخ + cache 12 ساعة (شوف تحت).
+- **`GET /api/sources/{subjectId}`** → `{imdb_id, title, results:[{provider, quality, stream_url (صفحة embed), download_url}], **subtitles: []**}` — **5 مزودين** اتأكدوا: VidLink 4K، AutoEmbed 1080p، EmbedSU، SmashyStream، MoviesAPI. **كلهم صفحات embed — المشغّل الأصلي مينفعش يشغّلهم؛ WebView بس.** `/api/download/{id}` بيرجع **نفس** صفحات الـ embed (مفيش mp4 مباشر رغم اللي الدوكس بتقوله).
+- **`GET /api/search/{q}?page=N&perPage=24&type=1`** → `{results:{items:[], pager}}` — **متذبذب:** صفر نتايج لـ "Inception" و"Finding Dory" و"Dory" و"Black Panther" (اتأكد حي 2026-11-26)؛ بيشتغل لعناوين تانية. النتايج الفاضية نتيجة طبيعية — التطبيق بيعرض "لا توجد نتائج".
+- **`GET /api/browse?genre=Action&type=1&page=0`** → subjectList فاضي (Drama برضه فاضي) — **تصفح النوع مكسور في الـ API؛ متبنيش واجهة أنواع.**
+- **`GET /api/info/{id}`** موجود (مش مستخدم).
+- **الملفات (fixtures):** `~/workspace/your_files/cinereels/checks/pr_trend_live.json`، `pr_sources_live.json`، `pr_trend_p0_movies.json`، `pr_trend_p1_movies.json`، `pr_trend_p2_movies.json`، `pr_trend_p0_list.txt`.
+
+### 20.2 تطوّر مشغّل الأفلام (v1.43 → v1.47)
+- **v1.43 (code 44):** `PrinceMovies.java` جديد (trending/search/sources)؛ قسم "🎬 أفلام أجنبية جديدة" فوق المكتبة (بوسترات + بحث + تحديث)؛ ضغطة → `/api/sources` → WebPlayerActivity مع chips تبديل المزوّدين (VidLink أولاً وقتها)؛ صفر مصادر = toast وبتفضل في القايمة. الأفلام مجانية.
+- **v1.44 (code 45):** شريط ترقيم مرقّم تحت الشبكة (السابق + أرقام + التالي، الحالي ذهبي، نافذة الحالي ±2 مع صفحة 1 + "…"؛ السابق معطّل في ص1، التالي معطّل لما hasMore=false). التقسيم كان من السيرفر — وده اللي كشف إن الـ API بيتجاهل `type=1`.
+- **v1.45 (code 46):** فلتر أفلام بس (`subjectType==1` في `parsePage`؛ `hasMore` من العدد الخام فالتقسيم لسه شغال).
+- **v1.46 (code 47):** **pool ثابت:** `fetchPool()` بيجيب trending p0–p2، يدمج وينضف التكرار، أفلام بس، يرتب `releaseDate` تنازلي (مقارنة نصية)، ويحفظ 12 ساعة في SharedPreferences (`prince_pool` / `pool_saved_at`؛ لو الجلب فشل بيرجع للـ cache القديم؛ زرار "تحديث" بيجيب طازج غصب)؛ **تقسيم محلي 7/صفحة** (`princeTrendingTotalPages()`)؛ **سلايدر أحدث 5 أفلام** (بيقلب كل 4 ثواني بـ Handler، بيتوقف مع lifecycle، نقاط، ضغطة بتفتح الفيلم، مخفي لو الـ pool فاضي)؛ **سطر تنبيه ترجمة** في WebPlayerActivity (أفلام Prince بس). اتأكد بالـ mirror: pool 20 فيلم، صفر تكرار، صفر تلفزيوني، مترتب تنازلي.
+- **v1.47 (code 48):** **AutoEmbed أولاً** (`PrinceMovies.moveAutoEmbedFirst()` — اتأكد بالـ mirror: الترتيب بقى AutoEmbed / VidLink / EmbedSU / SmashyStream / MoviesAPI، والرابط الافتراضي autoembed.co) + **التنبيه بقى فيه خطوات الترجمة بالظبط** (شوف §20.3).
+- **إصلاح المسلسلات في المكتبة (v1.46):** `MoviesActivity.splitItems()` كان بيقبل المسلسل بس لو `categoryId=="movies"` أو `source=="archiveorg"` (يعني العراف بس من الـ 15) — دلوقتي **كل مسلسل مش فيلم بيروح لقايمة المسلسلات**. اتأكد: seriesList 15/15، وكلمة `archiveorg` صفر مرة في الـ dex. ضغطة على مسلسل بتفتح SeriesDetailActivity (زي ما هي)؛ الفيد الرئيسي متلمسش.
+
+### 20.3 الترجمة العربية في الأفلام — متأكدة حي (2026-11-26 ~13:40–13:47 EET)
+- **AutoEmbed شغال لـ Finding Dory (tt2277860):** الفيديو بيشتغل (1:37:03)؛ قايمة Captions/Subtitles → **مفيش تراكات محمّلة أصلاً (بس "Off")** → تبويب **Search** → قايمة اللغات (55 لغة منها العربية) → بحث OpenSubtitles (**~45 ثانية** على نت سريع، وأطول على نت آدم البطيء) → بيحمّل تلقائياً `"Finding.Dory.2016.1080p.bluray.mora.25r.srt"` → **نص عربي بيظهر فعلاً على الفيديو أثناء الحوار** (اتأكد بجمل حقيقية).
+- **VidLink مش متأكد في متصفح الـ cloud:** المشغّل مبيحمّلش أبداً (0:00، الكونترولز متغطية بطبقة تحميل، 7 دقايق + reload + محاولة من غير autoplay) — فمعرفش إن كانت العربية موجودة فيه ولا لأ؛ وضغطة على البوستر فتحت تاب إعلان 1xBet (اتقفل من غير تفاعل). **على موبايل آدم VidLink شغّل فعلاً** (سكرين شوت 13:36 EET، 4:06) **بس CC مدّتلوش عربي** — فـ VidLink متذبذب + إعلانات كتير؛ **AutoEmbed هو طريق الترجمة الشغال.**
+- **الـ API نفسه مبيدّيش ملفات ترجمة** (`"subtitles": []` في `/api/sources`) — قايمة اللغات في الـ trending هي metadata بس. الترجمة بتيجي من مشغّل كل مزوّد بس (قايمة CC بتاعته).
+- **التطبيق مينفعش يحقن ترجمة في مشغّل WebView بتاع طرف تالت** (cross-origin) — عشان كده الحل هو توجيه المستخدم للخطوات الصح، مش إضافة ملف ترجمة.
+- **سطر التنبيه في التطبيق (v1.47):** "للترجمة العربية: دوس CC وبعدين Search واختار العربية، واستنى لحد ما الترجمة تحمّل" (إنجليزي: "For Arabic subtitles: tap CC, then Search, choose Arabic and wait for the track to load") — مفتاح `prince_cc_hint` في `strings.xml` و`strings-ar.xml`.
+
+### 20.4 قصة سيرفر الأفلام — النتيجة: الـ embed هو اللي شغال
+- **طلب آدم (2026-11-26 08:38–08:40 EET):** أفلام أجنبية جديدة بمصدر ذاتي زي المسلسلات، من غير أفلام قديمة. الـ 3 أفلام القديمة اتمسحت من الـ manifest 08:41 EET (commit `db1f29e`).
+- **الحد الصريح اللي اتقال لآدم:** مفيش مصدر روابط مباشرة مجاني للأفلام الجديدة زي APIShort للمسلسلات. **آدم اختار السيرفر الصغير المجاني (09:36 EET)** وبعدها قرر (09:48 EET): **"نجرب المجاني لو اتقفل يحل محلو المدمج"** — جرّب مفتاح TMDB المجاني؛ لو اتقفل، مشغّل الـ embed بياخد مكانه.
+- **TMDB:** المفتاح المجاني (Developer) اتعمل 2026-11-26 09:54 EET (الحساب `karimbakr205112`؛ العنوان: Alexandria، 21500) واتوصّل واتأكد حي (connector `custom.tmdb` — فيلم Fight Club 550). **المفتاح server-side بس، مينفعش يتحط في الـ APK أبداً** (وقيمته مش مسجلة في أي مكان — آدم بيلصقها بنفسه في أي host من صفحة إعدادات TMDB). **الخطة التجارية $149/شهر اترفضت صراحة** (آدم اتقاله "STOP، متدفعش")؛ المفتاح المجاني للاستخدام غير التجاري حسب شروط TMDB — وآدم عارف خطر الإيقاف وقبله.
+- **CinePro Core** (`github.com/cinepro-org/core` — PolyForm Noncommercial: "personal/home use only" — علّم على ده لو الأفلام بقت تجارية): سيرفر Node Fastify بيحلّل روابط mp4/HLS + ترجمة، المفتاح server-side.
+- **Render — مسدود:** بيطلب كارت بنكي حتى على الخطة المجانية ($1 تحقق مؤقت) — آدم معندوش كارت. **متودّيهوش Render تاني.**
+- **Cloudflare Workers — مستحيل:** CinePro Core سيرفر Node عادي (`app.listen()`، بيقرا `./providers/` من القرص بـ fs، مفيش default export) — **مينفعش يشتغل على Workers أصلاً** (اتأكد من المصدر 2026-11-26). تسجيل الدخول لـ Cloudflare من متصفح الـ cloud بيفشل بـ Turnstile — الشغل على Cloudflare من متصفح موبايل آدم بس. حساب Cloudflare بتاعه **GitHub-OAuth بس** (مفيش باسورد) — الدخول بـ "Continue with GitHub".
+- **Vercel — السيرفر شغال بس مفيش مصادر:** `https://cinepro-core-six.vercel.app` (الدومين `cinepro-core.vercel.app` بيرجع 402 DEPLOYMENT_DISABLED — مش دومينه). المسارات الحقيقية من الـ root: `/v1/movies/{id}` و`/v1/tv/{id}/seasons/{s}/episodes/{e}` و`/v1/proxy` و`/v1/refresh/{id}`. مفتاح TMDB **سليم** على Vercel. **بس كل بحث بيرجع `NO_SOURCES_AVAILABLE`** (550، 27205، 299534).
+- **Railway — نفس النتيجة:** `https://core-production-5b877d3e.up.railway.app` (Trial، TMDB_API_KEY محطوط) — `/v1/movies/550` و`/v1/tv/1399/seasons/1/episodes/1` بيرجعوا `NO_SOURCES_AVAILABLE` (11–43 ثانية للبحث الواحد — بطيء جداً حتى لو اشتغل).
+- **التشخيص (اتأكد 2026-11-26 ~12:10 EET):** مواقع المزوّدين بتحجب أو بترد فاضي على IPs مراكز البيانات — vixsrc صفحة Cloudflare challenge حتى بـ headers متصفح كاملة، Videasy بيعلّق (>12 ثانية)، Tulnex مش بيوصل، VidRock بيرجع stream URLs فاضية. **المشكلة في المزوّدين مش في الـ hosts.**
+- **الحكم النهائي (اتقال لآدم 2026-11-26 ~12:35 EET): السيرفر المجاني ميت فعلياً — والـ Prince embed WebView هو التنفيذ الحي** حسب قرار آدم من 09:48 EET. السيرفرين متسابين شغالين (ممكن يرجعوا بعدين؛ Railway على Trial credit).
+- **ملفات الشغل:** نسخة محلية كاملة في `~/workspace/goals/cinereels-short-video-app/files/cinereels/cinepro-core-local/` (اتعملها npm install + build؛ سكربتات الاختبار جواها؛ السيرفرات التجريبية اتقفلت). تقرير البحث الأصلي: `~/workspace/research_notes/free-video-apis-drama-movies-20261126-0542/report.md`.
+
+---
+
+## 21. فيسبوك — الصفحة + الكرونات الشغالة
+
+### 21.1 الصفحة "سينما البيت - معاك في كل مكان"
+- **الصفحة:** ID `61566854476798`، الرابط `https://www.facebook.com/profile.php?id=61566854476798` — بتتدير ببروفايل آدم **Karim A. Bakr** (الكونتاكت `karimbakr20@gmail.com`). **67 متابع** (اتأكد 2026-11-26 13:42 EET — كانوا 65).
+- **الخطة:** فيديوهات آدم نفسه بس (الرسالة الأخيرة 1–15 + فرصة ثانية 1) — **حلقة كل 4 ساعات**، مش كلهم مرة واحدة. العناوين + الهاشتاجات + لينك التحميل `https://cinereelsapp.github.io/` (من 2026-11-25 — كان adam2211dmdm-ux.github.io).
+- **الحالة (2026-11-26 ~15:00 EET):** **ep1 منشورة** (2026-11-24 17:42 EET — `https://www.facebook.com/watch/?v=1872011410670087`، 1 لايك / 1 تعليق)؛ **ep2 مؤكدة حية من آدم** (2026-11-25 13:33 EET — الـ URL متسجّلش لسه)؛ **ep3 لسه متنشرةش** — فاتتها مواعيد 13:42 و17:42 و21:42 (2026-11-25) و01:42 و05:42 و09:42 و13:42 (2026-11-26). **الموعد الجاي: 17:42 EET 2026-11-26.** القايمة: lm-ep3…lm-ep15 وبعدين sc-ep1 (14 فيديو فاضلين من 16).
+- **لينك التحميل في البوست:** لينكات الـ caption **مش قابلة للضغط** في الريلز (قاعدة فيسبوك) — الحل = **أول تعليق مثبّت فيه اللينك**. التعليق الأول اتعمل لـ ep1 واتأكد إنه قابل للضغط؛ **الـ pin مستحيل من أي متصفح** (مفيش خيار "Pin comment") — **الـ pin خطوة آدم بنفسه على موبايله** (ضغطة مطوّلة على التعليق → "Pin comment") — اتقاله مرتين، لسه متأكدش (لا ep1 ولا ep2). **زرار CTA ("Download") مينفعش يتضاف لفيديو منشور أصلاً، والـ mobile composer مفيهوش خيار زرار أصلاً** (اتأكد 2026-11-25 ~13:08 EET) — التعليق المثبّت هو اللينك الوحيد القابل للضغط.
+- **قاعدة النشر (قرار آدم 2026-11-25 10:30 EET — "انشر من موبايلي"): النشر من متصفح موبايل آدم بس** (الجهاز اللي فيسبوك يعرفه). الموبايل لازم يبقى شغال ومتصل وقت النشر وإلا الحلقة بتستنى الموعد اللي بعده (4 ساعات). **متصفح الـ cloud Environment 2 هو fallback بس** — والـ session بتاعته expired (2026-11-25). **Environment 1 محروق — متستخدمهوش أبداً.**
+- **قاعدة صارمة (2026-11-24 23:23 EET): ممنوع أي دخول من جهاز جديد لفيسبوك أبداً.** بس المتصفحات اللي آدم دخل منها بنفسه. لو session خلص، **وقّف وقول لآدم، ومتدخلش تاني من جهاز جديد.** (الحساب اتقفل 20:35 EET يوم 2026-11-24 بعد دخولات متكررة من أجهزة جديدة، وآدم فكّه بنفسه 23:18 EET بخطوة كود إيميل؛ محاولة الباسورد المحفوظ فشلت مرتين من الـ cloud — متعيدهاش.)
+- **الصفحة اتقفلت مرة واتفتحت:** اتعطّلت أثناء أزمة القفل (اتأكد 2026-11-25 00:02 EET) و**آدم فعّلها بنفسه** ~06:48 EET واتأكدت حية 06:49 EET. **قبل أي نشر: افتح الصفحة الأول؛ لو اتعطّلت تاني، وقّف فوراً وخلّي الحلقة في القايمة وبلّغ آدم. متدوسش "Reactivate Page" بنفسك أبداً.**
+- **إعداد الصفحة لسه متعملش:** الصورة الشخصية لسه القديمة (مش أيقونة زر التشغيل الأحمر)، الـ cover لسه فاضي رمادي، الـ intro لسه القديم، مفيش لينك موقع. الأصول جاهزة وآدم وافق عليها: `fb-profile.png` (512×512) و`fb-cover.jpg` (2352×896) في `~/workspace/goals/cinereels-short-video-app/files/cinereels/facebook/`. النص المقترح للـ intro: "سينما البيت — معاك في كل مكان 🎬 مسلسلات قصيرة: دراما ورومانسية وانتقام. حمّل تطبيق CineReels — أول ٢٥ حلقة مجاناً!" + لينك الموقع `https://cinereelsapp.github.io/`. **إعداد الـ payout/البنك/الضرايب خطوة آدم نفسه — فحص الـ monetization read-only بس.**
+- **ملحوظة تقنية:** في متصفح الموبايل، اربط ملف الفيديو من الـ file input نفسه مباشرة، **متدوسش زر "Video"** (بيفتح الـ system picker وبيجمّد المتصفح — حصل 3 مرات 2026-11-25).
+- **ملف الحالة:** `~/workspace/goals/cinereels-short-video-app/hidden_files/facebook-posting.json` (القايمة + المنشور + `queue_done_notified`).
+- **سؤال مفتوح:** بعد ما الـ 16 فيديو يخلصوا — نعيد من الأول ولا نوقف؟ آدم لسه مقررش.
+
+### 21.2 الكرونات الشغالة (owner: `goal:cinereels-short-video-app`)
+| الكرون | الجدول | بيعمل إيه | ملف الحالة |
+|---|---|---|---|
+| `cinereels-facebook-4h` | كل 4 ساعات | بينشر حلقة واحدة من القايمة (§21.1) — متصفح الموبايل أولاً، Env 2 fallback بس. لو النشر فشل، الحلقة بتفضل أول القايمة للموعد الجاي. | `hidden_files/facebook-posting.json` |
+| `cinereels-facebook-engagement` | يومي ~09:32 EET | تقرير تفاعل بالعربي: متابعين + الفرق، مقاييس كل بوست، أحسن بوست، تعليقات تستاهل رد (بيعلّم عليها — مبيردّش بنفسه). الـ runs بتاع 2026-11-25 و2026-11-26 فشلوا (session expired / موبايل أوفلاين)؛ الـ baseline: 65 متابع، ep1 لايك 1 / تعليق 1. الجاي: 2026-11-27 09:32 EET. | `hidden_files/facebook-engagement.json` (لسه متعملش) |
+| `cinereels-daily-watch` | يومي ~09:32 EET | **read-only** — بيفحص: (1) حلقات منشورة ناقصها ترجمة (العالق >24 ساعة يتبلّغ عنه)، (2) حالة Sansekai بفحص متصفح حي **واحد في اليوم**، (3) هل الـ Actions workflow اتدفع. بيبلّغ آدم **بس لما حاجة تتغير**؛ وساكت لما كل حاجة ماشية. ميدفعش حاجة ومبيعدّلش MEMORY.md. آخر run 2026-11-26: ساكت (Revenge كملت 47→0؛ الـ watermark 186 ناقص = 76 قديم + 110 جديد: Divorce 80 + AL3RAF 30؛ Sansekai لسه محظور). | `hidden_files/translate-watch.json` |
+| `cinereels-support-triage` | كل 15 دقيقة | بيفحص `adam2211dmdm@gmail.com` عن إيميلات `[CineReels Support]`، بيجهز ردود بلغة المستخدم، وبيسجل الـ bugs في `~/workspace/your_files/cinereels/support/bugs.md`. **الإرسال محتاج دوسة آدم.** كل الـ runs اللي اتسجلت ملقتش إيميلات وسكتت. | — |
+| `cinereels-auto-translate` | — | **معطّل (2026-11-25، آدم وافق)** — الـ GitHub Action بيعمل الترجمة دلوقتي. **متعيدش تفعيله** إلا لو الـ Action اتكسر. | — |
+| `cinereels-publish-watch` | — | **اتعمل واتمسح 2026-11-25** (كان تصميم النشر بالإيميل — آدم رفضه). **متعيدش إنشاؤه أبداً.** النشر الحي هو GitHub issue + Action (§6.2). | — |
+
+---
+
+## 22. IPTV + الأسطورة TV
+
+### 22.1 تطبيق IPTV بتاع آدم — v1.0 DELIVERED (2026-11-23)
+- **الحزمة:** `com.adam.iptvplayer`، v1.0 / code 1، MD5 `19f2a3f4bb3c21ce451afe490ac512e0`، 29,215 بايت. **57 قناة عربية مجانية في 10 تصنيفات** (أخبار 27، مصر 5، دينية 5، رياضة 4، مسلسلات 4، أطفال 3، موسيقى 3، أفلام 2، وثائقي 2، ترفيه 2 — منها MBC Egypt/Masr/Drama، الجزيرة، العربية، Sky News Arabia، France 24 عربي، RT عربي، Cartoon Network عربي، Spacetoon).
+- **المصدر:** iptv-org (اتفحص HTTP 200 + HLS قبل البناء). **beIN/OSN/القنوات المدفوعة مستبعدة عمداً (سياسة)**؛ BBC عربي مستبعد (DASH — محتاج ExoPlayer/Gradle).
+- **الـ keystore:** `~/workspace/snake-colony-work/keystore/iptv.keystore` (alias `iptv`، SHA-256 `99:5F:58:49:34:AA:96:54:EC:80:F6:58:8F:AC:F2:E0:29:5C:CC:FD:F7:BA:77:A6:FD:0F:74:4C:DE:79:FA:33`) — آدم لازم يحتفظ بيه. الـ APK + `channels.m3u` (رابط التحديث البعيد `https://adam2211dmdm-ux.github.io/channels.m3u`) على Pages، commit `dba4a07`، الاتنين اتأكدوا 200 بـ curl.
+- **متجربش على موبايل حقيقي لسه.** ملحوظة: apksigner `--ks-pass file:` بيقرا **سطرين** (باسورد المخزن + باسورد المفتاح) — ملف سطر واحد بيفشل.
+- **الطلب الجاي (2026-11-26 07:56 EET):** آدم طلب كورة + بثوث مباشرة زي تطبيق الأسطورة TV — شوف §22.2.
+
+### 22.2 فحص APK الأسطورة TV (2026-11-26 ~14:26–14:35 EET)
+- **الملف اللي آدم رفعه:** `~/workspace/user/files/_________TV_7.0_9_v2lj.apk` — **الأسطورة TV v7.0**، الحزمة `com.t4w.ostora516`، 10.5 MB، MD5 `8d9e663684587c311e2a0cbcfac13c08`، موقّع self-signed "CN=Ostora Tv, C=eg" (sideloaded، مش من Play). تطبيق Kotlin حقيقي (AndroidX + Room + Navigation).
+- **المعمارية: مفيش ولا قناة ولا رابط بث جوّا الـ APK أصلاً** — كل حاجة بتيجي من سيرفره وقت التشغيل. الـ backend اللي لقيناه في الـ dex: Firebase Realtime Database `https://ostoraapp.firebaseio.com` — **مقفول (401 Permission denied — محتاج auth التطبيق)**. حمولات السترينج مشفرة AES-256-CBC عبر `SecureEncryptor` الأصلي (libcrypto_jni.so) وبتتفك على الموبايل. المشغّل ijkplayer (FFmpeg) وبيحلّل المصادر لروابط M3U8 ("No M3U8 URL found in sources")؛ منطق multi-server + اختيار جودة. أقسام المباريات في الـ strings: **جدول المباريات / مواعيد المباريات**؛ بحث + فحص تحديث جوه التطبيق ("يوجد تحديث جديد لتطبيق الأسطورة")؛ FCM push + BootReceiver.
+- **الأذونات تقيلة:** REQUEST_INSTALL_PACKAGES، REQUEST_DELETE_PACKAGES، QUERY_ALL_PACKAGES، MANAGE_EXTERNAL_STORAGE، SYSTEM_ALERT_WINDOW، REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — التطبيق يقدر يثبّت APKs تانية. **متديلوش كل الأذونات دي من غير تفكير.**
+- **الأفلام:** نفس القصة — صفر مفردات أفلام في الـ APK (لا أفلام/مسلسلات/حلقة/TMDB؛ بس token "movies" واحد + `android.graphics.Movie` بتاع الفريموورك) — قسم الأفلام 100% من نفس الـ backend المقفول.
+- **الطريق اللي لقيناه على GitHub (2026-11-26 ~14:35 EET):** ريبو عام **`x7007x/ostora-tv-client`** (Python، نجمة واحدة، اتعمل 2026-10-16) بيعيد تنفيذ سلسلة الشبكة كاملة: DoH TXT bootstrap (`start.ver6.top`) → base64 → AES-256-CBC decrypt → base64 → zlib → JSON config (الموقع، لينك تحديث الـ APK، لينك popup، API hosts x0–x9) → video API `/api/v6.2/main` + `/api/v6.2/category/{id}` (headers `id` + User-Agent) → base64 → AES → JSON (سيرفرات → تصنيفات → ستريمات؛ الروابط بصيغة `NNN<F>https://…m3u8` أو `redirect.m3u8` 302).
+- **اتأكد حي من هنا:** الـ bootstrap config بيتحلّل دلوقتي (10 API hosts موجودين)؛ واختبار محدود (أسماء السيرفرات + التصنيفات بس، من غير أي روابط ستريم): **24 سيرفر** (سيرفر البث الرئيسي، أهداف وملخصات، المسلسلات العربية، الأفلام العربية/الأجنبية، المسلسلات التركية/الأجنبية…) وأول سيرفر فيه **54 تصنيف** منهم قنوات الأخبار، قنوات الرياضة المصرية، **بى ان سبورت FHD/HD/SD/LOW**، ألوان الرياضية، ثمانية الرياضية، SHAHID SPORTS، ستارز بلاى سبورت. **الخطوة دي وقفت عند أسماء التصنيفات — مفيش روابط ستريم اتجابت، ومفيش حاجة اتشغّلت، ومفيش حاجة اتوصّلت بتطبيق آدم.**
+- **⛔ حدّ صارم — ممنوع تجاوزه:** الستريمات دي **إعادة بث غير مرخّصة لقنوات مدفوعة (beIN وغيرها)** — سحبها لتطبيق آدم هيبقى قرصنة. **آدم طلب مرتين (14:51 + 14:53 EET) نحطها في تطبيق الـ IPTV بتاعه ("حطها في التطبيق بتاعي" / "انا مسؤال وبقولك حطها وهشلها") — واترفض مرتين.** البديل القانوني المعروض (جدول مباريات + قنوات رياضية مجانية) — لسه مستني رده. **الجزء القابل لإعادة الاستخدام هو المعمارية بس** (DoH bootstrap + config مشفر + category API) لـ backend قانوني خاص بآدم — مش الستريمات.
+- **ملفات الشغل:** `~/workspace/your_files/iptv/ostora-check/` (الـ dex المستخرج، resources.txt، manifest.txt، ملاحظات الفحص).
+
+
 ## ملاحظات أخيرة للي هيكمل
 
-- **ابدأ أي شغل بقراءة الملف ده + `~/workspace/your_files/cinereels/CineReels-HANDOVER-GUIDE.md` + `~/MEMORY.md` + ملاحظات اليوم في `~/memory/2026-11-24.md`.** التفاصيل الكاملة للـ harvest في `sansekai-harvest-batch1.md` و`sansekai-harvest-batch2.md`.
+- **ابدأ أي شغل بقراءة الملف ده + `~/workspace/your_files/cinereels/CineReels-HANDOVER-GUIDE.md` + `~/MEMORY.md` + ملاحظات اليوم في `~/memory/2026-11-26.md`.** التفاصيل الكاملة للـ harvest في `sansekai-harvest-batch1.md` و`sansekai-harvest-batch2.md`.
 - **آدم بيشتغل على موبايله وبيبعت سكرين شوتس** — اقرا الصورة كويس قبل ما ترد؛ اللي باين فيها هو التشخيص.
 - **قبل أي push لـ `videos.json`: هات الـ head الحي وادمج عليه** — آدم بينشر من متصفحه أثناء الشغل.
 - **متدّعيش حاجة شغالة من غير تحقق** (curl + MD5 + سكرين شوت من موبايل آدم). الصدق مع آدم هو اللي بنى الثقة دي.
 - **حدّث هذا الملف** كل ما حالة المشروع تتغير (نسخة جديدة، عيب جديد، قرار جديد من آدم) — هو دليل حي، مش أرشيف.
 
-*آخر تحديث: 2026-11-24 ~14:25 EET — CineReels فقط (بطلب آدم). v1.33 DELIVERED والرابط اتبعت لآدم 14:08 EET (HTTP 200، 1,312,874 بايت، MD5 `03dedf416aed9263df7a57ca1a64d2cc`، APK commit `223d3d2`، index commit `7f38487`)، manifest حي 198 فيديو / 5 مسلسلات، عيب 38/52 معروف ومبلّغ بيه، ترجمة انتقام إله الأمواج وصلت للحلقات 1–11 EN+AR، APIShort بقى مصدر تاني جنب Sansekai (§11.1) مع تحديث لحظي للروابط اللي بتنتهي (§12).* 
+*آخر تحديث: 2026-11-26 ~15:00 EET — CineReels فقط (بطلب آدم). v1.47 LIVE على https://cinereelsapp.github.io/ (صفحة 200 بتقول v1.47، APK 200، 1,366,122 بايت، MD5 `7b7eafe61ad22b236abd5291b7274f5f`، commit `1567611`)، manifest حي 15 مسلسل / 758 فيديو، AutoEmbed أولاً للترجمة العربية (§20)، النشر الذاتي على GitHub شغال (§6.2)، الترجمة التلقائية 8 حلقات/10 دقايق (§7.1)، فيسبوك ep1+ep2 منشورين وep3 في القايمة (§21)، والأسطورة TV: الطريق اتلقى واتأكد بس الستريمات المسروقة ممنوعة (§22).*
